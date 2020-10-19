@@ -1,8 +1,171 @@
-/* Тут пиши основные стили */
+body{
+    margin: 0px 0px;
+}
 
+main {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 95px;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 44px;
+    width: 700px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    width: 700px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 33px;
+    width: 700px;
+    margin: 0;
+}
+
+
+.code {
+    font-family: "Courier New", monospace;
+    background-color: #eee;
+}
+
+img {
+    margin-top: 43px;
+    margin-bottom: 37px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 38px;
+}
+
+li {
+    margin-right: 30px;
+}
+
+li a {
+    text-decoration: none;
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+li a:hover .currentPage {
+    text-decoration: underline solid #d0021b;
+}
+
+nav {
+    
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #696969;
+    border-top: 1px solid #696969;
+}
+
+.currentPage {
+    color: #d0021b;
+}
+
+.headImage {
+    margin: 10px 38px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    main {
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0);
+        margin-bottom: 0px;
+    }
+    
+    h1 {
+        font-family: "Lucida Grande", "LucidaGrande-Bold", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 26px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 28px;
+        width: 520px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    h2{
+        font-family: "Lucida Grande", "LucidaGrande-Bold", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:22px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+        width: 520px;
+        margin-top: 25px;
+        margin-bottom: 6px;
+    }
+    
+    p {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 18px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 22px;
+        width: 520px;
+        margin: 0;
+    }
+
+    .code {
+        font-family: "Courier New", monospace;
+        background-color: #eee;
+    }
+
+    img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    ul {
+        list-style: none;
+        display: inline-block;
+        padding-left: 20px;
+        margin: 8px 0px;
+    }
+
+    li {
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    
+    li a {
+        text-decoration: none;
+        font-family:LucidaGrande;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:25px;
+    }
 }
