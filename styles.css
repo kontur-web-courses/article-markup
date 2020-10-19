@@ -1,6 +1,9 @@
 /* Тут пиши основные стили */
 body{
     margin: 0;
+    background-image: url(ZAc2.gif);
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 h1{
@@ -21,6 +24,7 @@ h1, h2 {
 }
 
 p {
+    animation: rotate 0.3s infinite;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size:21px;
     color:rgba(0,0,0,0.84);
@@ -37,11 +41,22 @@ p {
 .article img {
     max-width: 700px;
     margin: 43px 0 37px 0;
+    animation: rotate 0.1s infinite;
+}
+
+.article {
+    background-image: url(cooltext348554832950604.gif);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    animation: rotate 0.3s infinite;
+    width: 700px;
+    margin: 0 auto;
 }
 
 .logo {
     margin: 10px 0 10px 38px;
     height: 64px;
+    animation: shit 1.5s infinite;
 }
 
 .menu ul{
@@ -49,7 +64,7 @@ p {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    list-style: none;
+    list-style: armenian;
     background-color: #eee;
     border-top: 1px #979797 solid;
     border-bottom: 1px #979797 solid;
@@ -58,6 +73,7 @@ p {
 }
 
 .menu ul li{
+    animation: rotate 0.5s infinite;
     margin: 0;
     cursor: url('responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png'), pointer;
 }
@@ -77,11 +93,6 @@ p {
 
 .menu ul li a.active{
     color: red;
-}
-
-.article {
-    width: 700px;
-    margin: 0 auto;
 }
 
 @media (max-width: 800px) {
@@ -122,4 +133,29 @@ p {
         max-width: 520px;
         margin: 25px 0 25px 0;
     }
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        transform: scale(5);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes shit{
+    0%{
+        width:50%;
+        height:50px;
+    }
+    50%{
+        width:150%;
+        height:150px;
+    }
+    100%{
+        width:50%;
+        height:50px;
+    }
+
 }
