@@ -1,8 +1,125 @@
 /* Тут пиши основные стили */
+* {
+    margin: 0;
+    padding: 0;
+}
 
+#article {
+    margin-left: 361px;
+    margin-right: 361px;
+}
+.mainTitle {
+    margin-top: 55px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.title {
+    margin-top: 55px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 10px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+.code {
+    font-family: "Courier New", monospace;
+}
+
+.image {
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+#logo {
+    margin-left: 11.25pt;
+    margin-top: 3.75pt;
+    margin-bottom: 10px;
+}
+nav ul 
+{
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding-left: 3pt;
+    background-color: #f2f3f4;
+}
+
+a {
+    color: black;
+    
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+    cursor: url('responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png');	
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 11.25pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    nav ul li {
+        display: block;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:25px;
+    }
+    #article {
+        margin-left: 7.5pt;
+        margin-right: 7.5pt;
+    }
+    .mainTitle {
+        margin-top: 7.5pt;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+    .title {
+        margin-top: 7.375pt;
+        font-size:22px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+    }
+    .content {
+        margin-top: 2.25pt;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
+    .image {
+        margin-top: 9.375pt;
+        margin-top: 7.15pt;
+    }
 }
