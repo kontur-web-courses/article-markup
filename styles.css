@@ -72,11 +72,4 @@
         height: 100%;
         object-fit: cover;
     }
-    .image1{
-        height: 740px;
-    }
-    .image1 img{
-        object-fit: cover;
-        height: 100%;
-    }
 }
