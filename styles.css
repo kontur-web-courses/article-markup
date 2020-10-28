@@ -1,8 +1,176 @@
-/* Тут пиши основные стили */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    transition: all .2s;
+}
 
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.code {
+    display: inline;
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+
+.logo {
+    width: 97px;
+    height: 64px;
+    margin: 10px auto 10px 38px;
+}
+
+.nav-bar {
+    border: 1px solid #979797;
+    border-left: none;
+    border-right: none;
+    background-color: #faf9f8;
+    padding: 20px 38px;
+}
+
+.menu {
+    height: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu__item {
+}
+
+.menu__link {
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    margin-right: 30px;
+    transition: all .2s;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+    text-decoration: underline;
+}
+
+.menu__link:active {
+    color: #d0021b;
+}
+
+.menu__item--active > .menu__link {
+    color: #d0021b;
+}
+
+.content {
+    margin: 0 auto;
+    width: 700px;
+    transition: all .2s;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 95px;
+}
+
+.article__title {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+}
+
+.article__subtitle {
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+    margin-top: 55px;
+}
+
+.article__title,
+.article__subtitle {
+    margin-bottom: 10px;
+}
+
+.article__text {
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+}
+
+.article__img {
+    margin: 43px auto 37px;
+    width: 100%;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .logo {
+        width: 101px;
+        height: 64px;
+        margin-left: 20px;
+    }
+
+    .nav-bar {
+        padding: 20px
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu__item {
+        margin-bottom: 10px;
+    }
+
+    .menu__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .menu__link {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .content {
+        width: calc(100% - 40px);
+    }
+
+    .article {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .article__title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .article__subtitle {
+        font-size: 22px;
+        line-height: 39px;
+        margin-top: 25px;
+        margin-bottom: 6px;
+    }
+
+    .article__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .article__img {
+        max-height: 540px;
+        margin: 25px auto;
+        object-fit: contain;
+    }
 }
