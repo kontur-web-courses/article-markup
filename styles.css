@@ -1,8 +1,176 @@
 /* Тут пиши основные стили */
 
+body {
+    width: 100%;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.header-logo {
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+nav {
+    width: 100%;
+    background: #f8f8f8;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+.nav-list>li {
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-list>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-list>li:nth-child(4)>a {
+    font-size: 24px;
+    color: #d0021b;
+    text-align: left;
+    line-height: 36px;
+
+}
+
+.js-article {
+    width: 700px;
+    margin: auto;
+}
+
+.js-article>img {
+    width: 100%;
+}
+
+.js-article>p {
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.js-article>h1 {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.js-article>h2 {
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+
+.code-fragment {
+    font-family: "Courier New", monospace;
+    font-weight: 100;
+    background: #eeeeee;
+    color: #41433b;
+}
+
+
+
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
+
+    /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    .nav-list>li {
+    	font-family:LucidaGrande;
+font-size:20px;
+color:#333333;
+text-align:left;
+line-height:25px;
+        display: block;
+
+    }
+
+    .nav-list {
+        padding-inline-start: 20px;
+    }
+
+    .header-logo {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .js-article {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: auto;
+        width: auto;
+    }
+    .nav-list>li:nth-child(4)>a {
+    font-family:LucidaGrande;
+font-size:20px;
+color:#d0021b;
+text-align:left;
+line-height:25px;
+
+}
+
+    .js-article>img {
+        width: 100%;
+    }
+
+    nav {
+        width: auto;
+    }
+    .js-article>h1 {
+    	font-family:LucidaGrande-Bold;
+font-size:26px;
+color:rgba(0,0,0,0.84);
+text-align:left;
+line-height:28px;
+margin-bottom: 20px;
+    }
+    .js-article>h2 {
+    	font-family:LucidaGrande-Bold;
+font-size:22px;
+color:rgba(0,0,0,0.84);
+text-align:left;
+line-height:39px;
+margin-bottom: 6px;
+    }
+    .js-article p {
+    	font-family:Georgia;
+font-size:18px;
+color:rgba(0,0,0,0.84);
+text-align:left;
+line-height:22px;
+margin-bottom: 25px;
+
+    }
+    .hide-mobile {
+    	display: none;
+    }
+
 }
