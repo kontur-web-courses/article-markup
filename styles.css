@@ -1,8 +1,149 @@
 /* Тут пиши основные стили */
 
+body{
+    width: 100%;
+    height: auto;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+h1,h2{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    width: 49%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 42px;
+    line-height: 44px;
+}
+
+h2{
+    font-size: 34px;
+    line-height: 39px;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+nav{
+    border-top:1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    background: #f8f8f8;
+}
+
+li{
+    list-style: none;
+    font-size:24px;
+    text-align:left;
+    line-height:36px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+li:nth-child(4) a{
+    color:#d0021b;
+}
+
+li a:hover{
+    border: 1px solid blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+code{
+    font-family: "Courier New", monospace;
+    background: #eeeeee;
+}
+
+header img{
+    height: 6.8%;
+    width: 4.5%;
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 21px;
+    width: 49%;
+    text-align: left;
+    line-height: 33px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+}
+
+.textBlock{
+    margin-bottom: 50px;
+}
+
+main img{
+    width: 700px;
+    height: 727px;
+    margin-left: 25%;
+}
+
+.secondImage{
+    height: 923px;
+    margin-left: 25%;
+}
+
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    header img{
+        width: 18%;
+        height: 4%;
+    }
+
+    nav ul li{
+        display: revert;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    h1,h2{
+        margin-right: 4%;
+        margin-left: 4%;
+        width: 93%;
+    }
+
+    h1{
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 6px;
+        margin-top: 25px;
+    }
+
+    h2{
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 22px;
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    body main img{
+        margin-left: 0;
+        height: 92%;
+        width: 92%;
+    }
+
+    .secondImage{
+        height: 80%;
+        width: 70%;
+        margin-left: 0;
+    }
+
 }
