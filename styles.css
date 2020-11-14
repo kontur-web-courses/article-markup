@@ -1,8 +1,176 @@
 /* Тут пиши основные стили */
+h1, h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    width: 700px;
+}
 
+h1 {
+    font-size: 42px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 34px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 39px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 700px;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: rgba(0,0,0,0.07);
+}
+
+.centeredImage {
+    display: block;
+    margin: 43px auto 37px;
+}
+
+#logo{
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+nav {
+    height: 88px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    background-color: rgba(0,0,0,0.04);
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    line-height:36px;
+}
+
+.redColor {
+    color: #E30B5C;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: url('responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png'),
+            pointer;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    #logo{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    nav {
+        height: 200px;
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        background-color: rgba(0,0,0,0.04);
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        display: block;
+        margin-top: 10px;
+        margin-left: -20px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:20px;
+        line-height:25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        cursor: url('responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png'),
+        pointer;
+    }
+
+    h1, h2 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        width: 520px;
+    }
+
+    h1 {
+        font-size: 26px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 39px;
+    }
+
+    p {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6px;
+        width: 520px;
+        font-size: 18px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 22px;
+    }
+
+    #first {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 520px;
+        font-size: 18px;
+        color: rgba(0,0,0,0.84);
+        text-align: left;
+        line-height: 22px;
+    }
+
+    code {
+        font-family: "Courier New", monospace;
+        background-color: rgba(0,0,0,0.07);
+    }
+
+    .centeredImage {
+        display: block;
+        margin: 25px auto;
+    }
 }
