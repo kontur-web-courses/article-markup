@@ -1,8 +1,147 @@
 /* Тут пиши основные стили */
+body {
+    background: white;
+    color: black;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    width: auto;
+    margin: 0px;
+}
 
+.page-layout {
+    width: 700px;
+    margin: 55px auto 95px;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    line-height:44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    margin: 55px 0 0;
+    line-height: 38px;
+}
+
+p {
+    font-size: 21px;
+    line-height:33px;
+    margin-top: 10px;
+}
+
+span.code {
+    font-family: "Courier New", monospace;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+img.example {
+    display: block;
+    max-width: 100%;
+    width: 700px;
+    margin: 43px auto 38px;
+}
+
+img.logo {
+    width: 97px;
+    height: 64px;
+    margin: 10px 38px;
+}
+
+img.pointer {
+    position: absolute;
+    top:18px;
+    right: 15px;
+}
+
+nav {
+    width: 100%;
+    list-style: none;
+    background-color: rgba(242, 242, 242, 1);
+    padding: 20px 38px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+nav.main-menu a {
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    line-height:36px;
+    color:#333333;
+    text-decoration: none;
+}
+
+nav.main-menu a:hover {
+    text-decoration: underline;
+}
+
+nav.main-menu a.current {
+    color:#d0021b;
+}
+
+nav.main-menu a.hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    img.logo {
+        width: 101px;
+        height: 64px;
+        margin-left: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    nav ul li:last-child {
+        margin-bottom: 0px;
+    }
+    nav.main-menu a {
+        font-size:20px;
+        line-height:25px;
+    }
+    img.pointer {
+        top: 10px;
+        left: 60px;
+    }
+    .page-layout {
+        width: auto;
+        margin: 25px 20px 20px;
+    }
+    h1 {
+        font-size:26px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 25px 0 0;
+        line-height: 39px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height:22px;
+        margin-top: 20px;
+    }
+    img.example {
+        margin: 25px auto;
+    }
 }
