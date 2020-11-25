@@ -9,8 +9,6 @@ h1, h2{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
-
-
 a{
     text-decoration: none;
     color: black;
@@ -99,7 +97,17 @@ nav{
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+.js-article{
+    width: 400px;
+}
+.nav-list > li{
+    display: block;
+}
+.js-article{
+    margin: 15px;
+}
+.js-article > img{
+    width: 400px;
+    height: 400px;
+}
 }
