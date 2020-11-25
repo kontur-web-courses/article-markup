@@ -1,8 +1,159 @@
 /* Тут пиши основные стили */
+body{
+    width: 100%;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
 
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+.header-logo {
+    width: 98px;
+    height: 64px;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+
+a {
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    border-top: 1px solid darkgray;
+    background: #f8f8f8;
+    border-bottom: 1px solid darkgray;
+}
+
+.nav-list > li {
+    display: inline-block;
+    text-underline: none;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-list > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-list > li:nth-child(4) > a {
+    font-size: 24px;
+    color: #d0021b;
+    text-align: left;
+    line-height: 36px;
+}
+
+.js-article {
+    width: 700px;
+    margin: auto;
+
+}
+
+.js-article > p {
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-top: 0;
+    margin-bottom:54px;
+}
+
+.js-article > h1 {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+.js-article > h2 {
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+    margin-bottom:10px;
+    margin-top: 0;
+}
+.js-article>img{
+    width:700px;
+}
+.code-fragment{
+    font-family: "Courier New", monospace;
+    background: #eeeeee;
+}
+.js-article > .big-code-image-first{
+    margin-bottom: 36px;
+    height: auto;
+
+}
+.js-article > .big-code-image-second{
+    display: none;
+    opacity: 0;
+    margin-bottom: 36px;
+}
+.js-article > .small-code-image-first{
+    margin-bottom: 36px;
+    height: 923px;
+
+}
+.js-article > .small-code-image-second{
+    display: none;
+    opacity: 0;
+    margin-bottom: 36px;
+}
+article > p:last-child{
+    margin-bottom: 95px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    body {
+        display: block;
+        max-width: 800px;
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif
+    }
+    .js-article {
+        width: 100%;
+        margin: auto;
+
+    }
+    .nav-list > li {
+        display:block;
+        text-underline: none;
+        list-style: none;
+        margin-right: 30px;
+    }
+    .js-article > p {
+        margin-right:10px;
+    }
+    .js-article > .big-code-image-first{
+        display: none;
+        opacity: 0;
+
+    }
+    .js-article > .big-code-image-second{
+        display: block;
+        opacity: 100;
+        width: 100%;
+        height: auto;
+    }
+    .js-article >  .small-code-image-first{
+        display: none;
+    }
+    .js-article > .small-code-image-second{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }
+
