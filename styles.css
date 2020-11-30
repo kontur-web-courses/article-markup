@@ -1,8 +1,116 @@
 /* Тут пиши основные стили */
+.body {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
 
+h1,h2,h3,h4 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
 
+h1 {
+    font-family: "LucidaGrande-Bold";
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    margin-top:32px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-top: 56px;
+    margin-bottom: 10px;
+    font-family: "LucidaGrande-Bold";
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+p {
+    font-family: "Georgia";
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+.content{
+    margin: 55px 364px 95px 360px;
+    width: 700px;
+}
+
+.img{
+    margin-top: 43px;
+    margin-bottom: 37px;
+}
+mark{
+    color:#333333;
+    background-color: #eeeeee;
+    font-size:19px;
+    font-family:monospace,Consolas;
+}
+/* Верстака шапки */
+
+.logo{
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+nav{
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+ul.menu li{
+    margin-right: 30px;
+    list-style: none;
+    display: inline;
+}
+ul.menu li a{
+    font-family: LucidaGrande;
+    text-decoration: none;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    cursor: url("img/cursor.png"), default;
+}
+
+ul.menu li:hover{
+    text-decoration: underline;
+}
+
+#menu-item a{
+    font-family: LucidaGrande;
+    font-size:24px;
+    color:#d0021b;
+    text-align:left;
+    line-height:36px;
+}
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
+/* Тут пиши стили для просмотра с мобильных устройств.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    .logo {
+        margin-left: 20px;
+        width: 101px;
+        height: 64px;
+    }
+
+    ul.menu {
+        padding-left: 20px;
+    }
+    ul.menu li{
+        display: list-item;
+        padding: 10px;
+    }
+
+    /* Мобильная версия контента */
+    .content {
+        margin: 55px 56px 95px 20px;
+        width: 520px;
+    }
+
+    p {
+        margin-top: 5%;
+    }
 }
