@@ -1,6 +1,107 @@
 /* Тут пиши основные стили */
 
+menu{
+    margin: 0;
+    background-color: #faf9f8;
+    padding: 20px 0;
+    line-height: 30px;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+}
 
+
+menu .selected{
+    color: #e21300;
+}
+
+body{
+    margin: 0;
+}
+
+header img{
+    padding: 11px 25px;
+}
+
+header ul{
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding-left: 8px;
+}
+
+header li:hover{
+    text-decoration: underline;
+}
+
+header li{
+    margin-left: 30px;
+    display: inline;
+    font-size: 24px;
+}
+
+code{
+    font-family: "Courier New", monospace;
+    font-size: 21px;
+    background-color: #eceef3;
+}
+
+main{
+    width: 700px;
+    margin: 0 362px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main h1{
+    height: 88px;
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+main h2{
+    font-size: 34px;
+    margin-bottom: 10px;
+    height: 39px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+p{
+    font-size: 21px;
+}
+
+.introduction{
+    height: 326px;
+    margin-top: 0;
+    margin-bottom: 55px;
+}
+
+.closure{
+    height: 231px;
+    margin-top: 0;
+}
+
+.lexical-environment{
+    height: 132px;
+    margin-bottom: 43px;
+    margin-top: 0;
+}
+
+.area-of-visibility{
+    margin-top: 37px;
+    margin-bottom: 43px;
+}
+
+.area-of-visibility2{
+    margin-bottom: 95px;
+    margin-top: 37px;
+}
+
+.area-of-visibility-img{
+    width: 700px;
+    height: 923px;
+}
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
