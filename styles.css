@@ -27,7 +27,6 @@ header ul{
     cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
     list-style: none;
     margin: 0;
-    text-align: left;
     padding-left: 8px;
 }
 
@@ -69,21 +68,21 @@ main h2{
 
 p{
     font-size: 21px;
+    text-align: left;
+    display: inline-block;
+    white-space: normal;
 }
 
 .introduction{
-    height: 326px;
     margin-top: 0;
     margin-bottom: 55px;
 }
 
 .closure{
-    height: 231px;
     margin-top: 0;
 }
 
 .lexical-environment{
-    height: 132px;
     margin-bottom: 43px;
     margin-top: 0;
 }
@@ -103,6 +102,63 @@ p{
     height: 923px;
 }
 @media (max-width: 800px) {
+    header li{
+        height: 25px;
+        width: 133px;
+        margin-left: 0;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+    .header-img{
+        height: 64px;
+        width: 101px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    header ul{
+        padding-left: 20px;
+    }
+
+    main h1{
+        font-size: 26px;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    main h2{
+        margin-top: 25px;
+        margin-bottom: 6px;
+        font-size: 22px;
+    }
+
+    main p{
+        font-size: 18px;
+    }
+    main{
+        width: 520px;
+        margin: 10px 20px;
+    }
+
+    .lexical-environment-img{
+        width: 540px;
+        height: 520px;
+    }
+
+    .scope-chain-description, .area-of-visibility-img, .area-of-visibility2{
+        display: none;
+    }
+
+
+    .introduction{
+        margin-bottom: 25px;
+    }
+
+    code{
+        font-size: 18px;
+    }
+
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
