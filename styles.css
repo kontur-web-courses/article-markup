@@ -1,8 +1,109 @@
 /* Тут пиши основные стили */
+body{
+    width: 100%;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.header-logo{
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+nav{
+    width: 100%;
+    background: #f8f8f8;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.nav-list > li{
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-list > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-list > li:nth-child(4) > a{
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#d0021b;
+    text-align:left;
+    line-height:36px;
+}
+
+.js-article{
+    width: 700px;
+    text-align: left;
+    margin: auto;
+}
+
+.js-article > p{
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin-top: 0px;
+}
+
+.js-article > h1{
+    font-family:LucidaGrande-Bold;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+.js-article > h2{
+    font-family:LucidaGrande-Bold;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.js-article > img{
+    width: 700px;
+    height: 923px;
+}
+
+.code-fragment{
+    font-family: "Courier New", monospace;
+    font-weight: 100;
+    color: black;
+    background: #eeeeee;
+}
+
+
+
+
+main{
+
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
