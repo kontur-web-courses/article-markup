@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85a31ff2-f4dd-47bb-8e60-a93f4b75076e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -32,6 +33,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604214511190</updated>
       <workItem from="1604214512247" duration="17571000" />
+      <workItem from="1604920331900" duration="17000" />
+      <workItem from="1609496099770" duration="943000" />
     </task>
     <servers />
   </component>
@@ -39,6 +42,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1604920363718">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604920363718" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1604216996932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

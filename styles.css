@@ -54,6 +54,7 @@ nav{
     background-color: #f8f8f8;
     width: 100%;
 }
+
 ul.menu li{
     margin-right: 30px;
     list-style: none;
@@ -76,42 +77,22 @@ ul.menu li:hover{
 .menu .menu_blog a{
     color: red;
 }
-@media (max-width: 800px) {
-    .all{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    h1 {font-family:Arial;
-        font-size:42px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:44px;
-        margin-top:20px;
-        margin-bottom: 20px;}
-    p {font-family:Georgia;
-        font-size:21px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:33px;
-    }
-    h2{
-        margin-top: 25px;
-        margin-bottom: 6px;
-        font-family:Arial;
-        font-size:34px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:39px;
-    }
-    .textImg{
-        margin: 25px 20px 25px 20px;
-    }
-    .end{
-        margin-bottom: 95px;
-    }
 
-    .header-logo{
-        margin-left: 20px;
-        margin-top: 10px;
+.article{
+    width: 700px;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .article{
+        width: 400px;
+        margin: auto;
+    }
+    .nav-list > li{
+        display: block;
+    }
+    .img{
+        width: 400px;
+        height: 400px;
     }
 }
