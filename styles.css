@@ -6,3 +6,140 @@
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
+menu{
+    margin: 0;
+    background-color: #faf9f8;
+    padding: 20px 0;
+    line-height: 30px;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+    width: 1424px;
+    height: 36px;
+}
+
+menu ul li{
+    height: 36px;
+}
+
+menu .selected{
+    color: #e21300;
+}
+
+body{
+    margin: 0;
+}
+
+header img{
+    padding: 10px 38px;
+}
+
+header ul{
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding-left: 8px;
+}
+
+header li:hover{
+    text-decoration: underline;
+}
+
+header li{
+    margin-left: 30px;
+    display: inline;
+    font-size: 24px;
+}
+
+code{
+    font-family: "Courier New", monospace;
+    font-size: 21px;
+    background-color: #eceef3;
+}
+
+main{
+    width: 700px;
+    margin: 0 362px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main h1{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    margin-bottom: 10px;
+}
+
+main h2{
+    font-size: 34px;
+    margin-bottom: 10px;
+    height: 39px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 21px;
+}
+
+.intro{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    height: 326px;
+}
+
+.closure{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    height: 231px;
+    margin-bottom: 56px;
+}
+
+.lexical-environment{
+    font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    height: 132px;
+    margin-bottom: 43px;
+    margin-top: 10px;
+}
+
+.area-of-visibility{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    height: 267px;
+    margin-bottom: 43px;
+    margin-top: 37px;
+}
+
+.area-of-visibility2{
+    font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    height: 165px;
+    margin-bottom: 95px;
+    margin-top: 37px;
+}
+
+.area-of-visibility-img{
+    width: 700px;
+    height: 923px;
+}
