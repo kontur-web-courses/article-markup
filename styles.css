@@ -1,8 +1,132 @@
-/* Тут пиши основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
 
+.header {
+    padding: 10px 0;
+}
+
+.container {
+    padding: 0 35px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    background: #f8f8f8;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.navigation ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+.navigation ul li {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 5px 30px 5px 0;
+}
+
+.active {
+    color: #d0021b;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height:35px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 42px;
+    color: rgb(15, 15, 15);
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 45px;
+}
+
+.content {
+    width: 700px;
+    margin: 0 auto 95px;
+}
+
+.content_img {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background: #f8f8f8;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
-}
+    .navigation ul {
+        flex-direction: column;
+    }
+
+    .navigation ul li {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    h1 {
+        font-size: 26px;
+        margin: 20px 0;
+        line-height:30px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .content {
+        width: 520px;
+        margin: 0 auto;
+    }
+
+    .content_img {
+        margin: 20px 0;
+    }
+} 
