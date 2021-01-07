@@ -1,8 +1,206 @@
 /* Тут пиши основные стили */
+.logo
+{
+    width: 97px;
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 0;
+}
 
+.header
+{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding-top: 55px;
+
+}
+
+.size1
+{
+    font-size:42px;
+    line-height:44px;
+}
+
+.text1
+{
+    margin-top: 38px; 
+    margin-bottom: 44px;
+}
+
+.text2
+{
+    margin-top: 37px;
+     margin-bottom: 94px;
+}
+
+.size2
+{
+    font-size:34px;
+    line-height:39px;
+}
+
+
+.content
+{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11px;
+}
+
+.img1
+{
+    margin-top: 42px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img2
+{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code
+{
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+ul
+{
+    list-style: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin: 0;
+    background-color: #faf9f8;
+    margin-top: 11px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+li {
+    display:inline-block;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
+
+    .logo
+    {
+        width: 101px;
+        height: 64px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .header
+    {
+        text-align:left;
+        position: relative;
+        margin-left: 20px;
+        width: 520px;
+        padding-top: 0px;
+        margin-top: 25px;
+
+    }
+
+    .size1
+    {
+        font-size:26px;
+        line-height:28px;
+        height: 56px;
+        margin-bottom: 20px;
+    }
+
+    .size2
+    {
+        font-size:22px;
+        line-height:39px;
+        height: 38px;
+        margin-bottom: 6px;
+    }
+
+    .content
+    {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px !important;
+    }
+
+    .text1
+    {
+        margin-top: 6px; 
+        margin-bottom: 0px;
+    }
+
+    .text2
+    {
+        margin-top: 6px; 
+        margin-bottom: 0px;
+    }
+
+    .img1
+    {
+        margin-top: 24px;
+        width: calc(100% - 40px);
+    }
+
+    .img2
+    {
+        margin-top: 24px;
+        width: calc(100% - 40px);
+    }
+
+    ul
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    li
+    {
+        display: list-item;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:25px;
+        padding: 9px;
+        padding-left: 20px;
+    }
 }
