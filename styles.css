@@ -1,8 +1,112 @@
-/* Тут пиши основные стили */
+.content{
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    margin: 0 auto;
+    width: 700px;
+}
 
+body{
+    margin: 0;
+}
+
+h1{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 44px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 0px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 0px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 55px;
+}
+
+code{
+    font-family: "Courier New", monospace;
+}
+
+#logo{
+    margin: 10px 0px 3px 38px;
+}
+
+ul.main-menu li a{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+}
+
+ul.main-menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+ul.main-menu a{
+    text-decoration: none;
+}
+
+ul.main-menu li:hover{
+    text-decoration: underline;
+}
+
+#main-menu-item-blog a{
+    color: red;
+}
+
+.nav-bar{
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+    background-color: #FAF9F8;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .main-menu li{
+        line-height:25px;
+        font-size:20px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        display: block !important;
+    }
+    header img{
+        height: 64px;
+        width: 101px;
+        margin: 10px auto 10px 20px;
+    }
+    h1{
+        font-size: 26px;
+        line-height:28px;
+        margin-bottom: 20px;
+    }
+    h2{
+        margin-top: 25px;
+        margin-bottom: 6px;
+        font-size: 22px;
+        line-height:39px;
+    }
+    p{
+        font-size: 18px;
+        line-height:22px;
+    }
+    .content{
+        width: 90%;
+    }
+    .content img{
+        margin-top:25px;
+        margin-bottom: 25px;
+        width: 90%;
+    } 
 }
