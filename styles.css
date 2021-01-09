@@ -1,8 +1,89 @@
 /* Тут пиши основные стили */
 
+nav {
+    margin: 0;
+    background-color: #faf9f8;
+    padding: 20px 0;
+    line-height: 30px;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+}
+
+nav .selected {
+    color: #e21300;
+}
+
+body {
+    margin: 0;
+}
+
+header img {
+    padding: 11px 25px;
+}
+
+header ul {
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding-left: 8px;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+header li {
+    margin-left: 30px;
+    display: inline;
+    font-size: 24px;
+}
+
+.container code {
+    font-family: "Courier New", monospace;
+    font-size: 21px;
+    background-color: #eceef3;
+}
+
+.container {
+    width: 700px;
+    margin: 10px 362px 95px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.container h1 {
+    margin-left:-2px; /*исходя из макета нужно выставить для заголовков такие отступы*/
+    height: 88px;
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+.container h2 {
+    margin-left:-2px; /*исходя из макета нужно выставить для заголовков такие отступы*/
+    font-size: 34px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    height: 39px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
+
+.container p {
+    margin:0;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.container img{
+    margin-top: 43px;
+    margin-bottom: 37px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
