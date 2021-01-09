@@ -1,17 +1,16 @@
-/* Тут пиши основные стили */
-
 nav {
     margin: 0;
     background-color: #faf9f8;
     padding: 20px 0;
-    line-height: 30px;
+    color: #333333;
     border-bottom: 1px #000000 solid;
     border-top: 1px #000000 solid;
     border-bottom: 1px #000000 solid;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
 nav .selected {
-    color: #e21300;
+    color: #d0021b;
 }
 
 body {
@@ -19,15 +18,15 @@ body {
 }
 
 header img {
-    padding: 11px 25px;
+    margin: 10px 38px;
 }
 
 header ul {
     cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
     list-style: none;
-    margin: 0;
     text-align: left;
-    padding-left: 8px;
+    margin: 0;
+    padding: 0 8px;
 }
 
 header li:hover {
@@ -38,11 +37,11 @@ header li {
     margin-left: 30px;
     display: inline;
     font-size: 24px;
+    line-height: 36px;
 }
 
 .container code {
     font-family: "Courier New", monospace;
-    font-size: 21px;
     background-color: #eceef3;
 }
 
@@ -53,37 +52,86 @@ header li {
 }
 
 .container h1 {
-    margin-left:-2px; /*исходя из макета нужно выставить для заголовков такие отступы*/
-    height: 88px;
+    margin-left: -2px; /*исходя из макета нужно выставить для заголовков такие отступы*/
     font-size: 42px;
     margin-bottom: 10px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
 .container h2 {
-    margin-left:-2px; /*исходя из макета нужно выставить для заголовков такие отступы*/
+    margin-left: -2px; /*исходя из макета нужно выставить для заголовков такие отступы*/
     font-size: 34px;
     margin-top: 55px;
     margin-bottom: 10px;
-    height: 39px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
 .container p {
-    margin:0;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    margin: 0;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
 }
 
-.container img{
+.container img {
     margin-top: 43px;
     margin-bottom: 37px;
+    width:100%;
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+
+    header img {
+        margin: 10px 20px;
+    }
+    nav {
+        padding: 20px 0px 10px;
+        margin:0px;
+    }
+    nav ul{
+        padding:0;
+        margin:0;
+    }
+
+    nav li{
+       margin-bottom: 10px;
+        margin-left:20px;
+        display:block;
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .container {
+        width: 520px;
+        margin: 10px 20px 10px;
+    }
+
+    .container h1 {
+        font-size: 26px;
+        line-height: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container h2 {
+        font-size: 22px;
+        line-height: 39px;
+        margin-top: 25px;
+        margin-bottom: 6px;
+    }
+
+    .container p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .container img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    /* !!! В мобильном макете почему-то пропала часть текста и картинок,
+     мне показалось, что это сделано ненамеренно,
+     поэтому я решил их оставить*/
 }
