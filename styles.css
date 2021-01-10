@@ -1,8 +1,137 @@
 /* Тут пиши основные стили */
 
+body {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color:rgba(0,0,0,0.84);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-bottom: 10px;
+    line-height: 44px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: lighter;
+}
+
+h2 {
+    margin-top: 54px;
+}
+
+div.content {
+    width: 700px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+}
+
+div.content-part {
+    margin-bottom: 55px;
+}
+
+p {
+    text-align:left;
+    line-height:33px;
+    margin-top: 11px;
+}
+
+p + p {
+    margin-top: 20px;
+}
+
+.logo {
+    width: 97px;
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-top: 43px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+    background-color: #F2F2F2;
+}
+
+.header nav{
+    background-color: #FAF9F8;
+    border-bottom: 1px #929292 solid;
+    border-top: 1px #929292 solid;
+}
+
+.header ul{
+
+    padding: 0px;
+    margin-left: 8px;
+    list-style: none;
+}
+
+.header li{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin-left: 30px;
+    display: inline;
+}
+
+.header li:hover{
+    text-decoration:underline;
+}
+
+
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+
+    .header li{
+        line-height:25px;
+        font-size:20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: list-item;
+    }
+
+    .header ul{
+        margin: 0 auto 10px 0;
+    }
+
+    .logo {
+        width: 101px;
+        height: 64px;
+        margin: 10px auto 10px 20px;
+    }
+
+    h1{
+        font-size:26px;
+        line-height:28px;
+        height: 56px;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        font-size:22px;
+        line-height:39px;
+        height: 38px;
+        margin-bottom: 6px;
+    }
+    p{
+        line-height:22px;
+    }
+    .content{
+        width: 520px;
+        font-size: 18px;
+    }
 }
