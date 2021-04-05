@@ -1,8 +1,40 @@
-body {
+article, img, h1, h2 {
     margin-left: 362px;
     margin-right: 362px;
 }
 
+ul {
+    padding-left: 38px;
+    list-style: none;
+    background-color: rgb(230, 247, 153);
+    height: 50px;
+    padding-top: 13px;
+    border-bottom: solid 1px #1E2535;
+    border-top: solid 1px #1E2535;
+
+}
+
+li {
+    display: inline;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin-right: 30px;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+li :hover {
+    text-decoration: underline;
+}
+
+/*li :active {*/
+/*    color: red;*/
+/*}*/
+
+li :first-child{
+    padding-left: 38px;
+}
 
 h1, h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
