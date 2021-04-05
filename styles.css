@@ -49,11 +49,12 @@ code {
 }
 
 nav {
-    border: 0.5px solid;
+    border: 1px solid;
     border-left: #979797;
     border-right: #979797;
     margin-top: 31px;
     background-color: #faf9f8;
+    width: 100%;
 }
 
 nav li {
@@ -75,7 +76,32 @@ nav li :hover {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+    .logo{
+        margin-left: 20px;
+    }
+
+    nav li {
+        display: block;
+        padding: 5px;
+    }
+
+    nav {
+        margin-left: 0;
+        min-width: 520px;
+    }
+
+    img {
+        margin-left: 0;
+        width: 520px;
+    }
+
+    p {
+        margin-left: 0;
+        width: 520px;
+    }
+
+    h1, h2 {
+        margin-left: 0;
+        width: 520px;
+    }
 }
