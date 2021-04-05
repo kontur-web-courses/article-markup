@@ -1,8 +1,73 @@
 /* Тут пиши основные стили */
+div {
+    margin-left: 30%;
+    width: 700px;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+}
+
+article {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: rgb(242, 242, 242);
+}
+
+.cool-img {
+    margin: 10px 38px;
+}
+
+.cool-word {
+    color: red;
+}
+
+nav {
+    background-color: rgb(250, 249, 248);
+    border-top: 2px gray solid;
+    border-bottom: 2px gray solid;
+}
+
+ul {
+    list-style: none;
+    padding: 0 8px;
+}
+
+li {
+    display: inline-block;
+    margin: 15px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), auto;
+}
+
+li:hover {
+    text-decoration: underline;
+}
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
