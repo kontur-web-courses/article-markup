@@ -1,47 +1,5 @@
 /* Тут пиши основные стили */
 
-.dropdown {
-    position:absolute;
-    width: 140px;
-    right: 15px;
-    top: 50px;
-    z-index: 13;
-    display: none;
-    border-radius: 5px;
-    border: 1px solid #D6D6D6;
-    box-shadow:0 5px 10px rgba(0,0,0,.05);
-}
-
-.dropdown.active {
-    display: block;
-}
-
-.dropdown li {
-    padding: 10px;
-    cursor: pointer;
-    background-color: white;
-}
-
-.dropdown li:first-child {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
-.dropdown li:last-child {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-.dropdown li:hover {
-    background:#ECEEF3;
-}
-
-.header {
-    margin: 0;
-    display: grid;
-    background: #fdfdfe;
-    height: 50px;
-}
-
 .content_part {
     margin: 0;
     top: 50px;
