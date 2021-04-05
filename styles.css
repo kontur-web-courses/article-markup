@@ -27,11 +27,49 @@ p {
 img {
     margin: 43px 362px 37px 362px;
 }
+.header_img {
+    margin: 10px 38px 10px 38px;
+}
 
 .code {
     font-family: "Courier New", monospace;
     background-color: #f2f2f2;
 }
+
+nav {
+    background-color: #FAF9F8;
+    border-top: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+}
+
+nav li {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul {
+    list-style: none;
+}
+
+a:link {
+    text-decoration:none;
+    color:#333333;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: url("responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png"), auto;
+}
+
+
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
