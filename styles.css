@@ -5,6 +5,28 @@ body {
     align-content: flex-start;
 }
 
+nav {
+    width: 100%;
+}
+
+#menu_items {
+    display: flex;
+    font-size: 24px;
+    list-style: none;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 72px;
+    text-decoration: underline;
+
+
+}
+
+#image {
+    width: 97px;
+    hright: 64px;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -16,10 +38,10 @@ p {
     margin-bottom: 10px;
     /*height: 88px;*/
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
 }
 
 .header2 {
@@ -28,10 +50,10 @@ p {
     margin-bottom: 10px;
     /*height: 39px;*/
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
 }
 
 .text {
@@ -39,10 +61,10 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
 }
 
 .code {
@@ -51,7 +73,7 @@ p {
 }
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
