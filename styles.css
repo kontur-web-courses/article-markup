@@ -42,7 +42,6 @@
     height: 50px;
 }
 
-
 .content_part {
     margin: 0;
     top: 50px;
@@ -56,9 +55,27 @@
     background: #fdfdfe;
 }
 
-.art_1 {
-    width: 500px;
-    margin: 10px auto;
+.article {
+    display: grid;
+    width: 700px;
+    margin: 55px auto;
+    font-size: 21px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.article_header1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.article_header2 {
+    margin-top: 30px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
 }
 
 
