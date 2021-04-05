@@ -64,7 +64,20 @@ img {
 }
 
 @media (max-width: 800px) {
-	/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+	body {
+		font-size: 18px;
+	}
+
+	.nav-menu li {
+		display: block;
+		padding: 5px 0;
+	}
+
+	main {
+		margin: 0 20px;
+	}
+
+	.m-hidden {
+		display: none;
+	}
 }
