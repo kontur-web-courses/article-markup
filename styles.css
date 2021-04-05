@@ -39,17 +39,17 @@ body img {
     margin-right: 361px;
 }
 
-.first_example{
+.first_example {
     margin-top: 43px;
     margin-bottom: 38px;
 }
 
-.second_example{
+.second_example {
     margin-top: 44px;
     margin-bottom: 37px;
 }
 
-code{
+code {
     font-family: "Courier New", monospace;
     background: rgba(205, 214, 219, 0.3);
 }
@@ -72,14 +72,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-family:LucidaGrande;
-    font-size:24px;
-    color:#333333;
-    text-align:left;
-    line-height:36px;
+    font-family: LucidaGrande;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
 }
 
-.select{
+.select {
     color: red;
 }
 
@@ -92,4 +92,9 @@ nav ul li a:hover {
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
+    nav ul li {
+        display: block;
+        margin-top: 30px;
+    }
+
 }
