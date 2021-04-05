@@ -62,6 +62,47 @@ article > p > code {
     opacity: 0.65;
 }
 
+nav {
+    padding-left: 57px;
+    padding-right: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: rgb(250, 249, 248);
+    /* border: 10px rgb(175, 175, 174); */
+    border: 1px solid rgb(175, 175, 174);
+
+}
+
+nav > ul {
+    list-style: none;
+
+    
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.current-page {
+    color:#d0021b;
+}
+
+
+nav > ul > li > a  {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+.icon {
+    width: 101px;
+    margin: 10px auto 10px 20px;
+    display: block;
+}
+
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
