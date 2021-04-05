@@ -11,6 +11,10 @@ body {
     line-height: 33px;
 }
 
+.article .image {
+	width: 100%;
+}
+
 .article .headline {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     margin-bottom: 10px;
@@ -66,10 +70,9 @@ body {
 	margin: 0 15px;
 }
 
-
 .menu-item a {
 	text-decoration: none;
-	font-family:LucidaGrande;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	font-size:24px;
 	color:#333333;
 	text-align:left;
@@ -80,12 +83,22 @@ body {
 	color: red;
 }
 
-
 .menu-item a:hover {
 	text-decoration: underline;
 }
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+	.menu-item {
+		display: block;
+		margin: 0;
+	}
+
+	.nav,
+	.logo {
+		padding: 15px 20px;
+	}
+
+	.wrapper {
+		padding: 0 15px;
+	}
 }

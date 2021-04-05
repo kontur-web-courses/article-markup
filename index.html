@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Практика верстки</title>
     <link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<header>
@@ -51,7 +52,11 @@
 					доступа к переменным, функциям и объектам на основе их физического расположения в исходном коде.
 					Рассмотрим пример:
 				</p>
-				<img src="article-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/CA501510-E978-4377-9076-8F392B899C1B@1x.png">
+				<img
+					class="image"
+					src="article-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/CA501510-E978-4377-9076-8F392B899C1B@1x.png"
+					alt="Скриншот кода"
+				>
 				<p>
 					Здесь у функции <code class="codeline">inner()</code> есть доступ к переменным, объявленным в её собственной области видимости,
 					в области видимости функции <code class="codeline">outer()</code> и в глобальной области видимости. Функция <code class="codeline">outer()</code> имеет доступ к
@@ -60,7 +65,11 @@
 				<p>
 					Цепочка областей видимости вышеприведённого кода будет выглядеть так:
 				</p>
-				<img src="article-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/848B0BFD-C857-4F1E-93BF-3822E0A81A7E@1x.png">
+				<img
+					class="image"
+					src="article-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/848B0BFD-C857-4F1E-93BF-3822E0A81A7E@1x.png"
+					alt="Скриншот кода"
+				>
 				<p>
 					Обратите внимание на то, что функция <code class="codeline">inner()</code> окружена лексическим окружением функции
 					<code class="codeline">outer()</code> , которая, в свою очередь, окружена глобальной областью видимости. Именно поэтому
