@@ -35,6 +35,34 @@
     background:#ECEEF3;
 }
 
+.header {
+    margin: 0;
+    display: grid;
+    background: #fdfdfe;
+    height: 50px;
+}
+
+
+.content_part {
+    margin: 0;
+    top: 50px;
+    background: #ebedf2;
+    display: grid;
+    height: 1000px;
+}
+
+.content {
+    margin: 30px;
+    background: #fdfdfe;
+}
+
+.art_1 {
+    width: 500px;
+    margin: 10px auto;
+}
+
+
+
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
