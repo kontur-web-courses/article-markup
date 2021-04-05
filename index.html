@@ -20,17 +20,55 @@
                 <span class="unit-current">Standard</span>
                 ::after
             </div>
-            <ul id="dropdown" class="dropdown">
-                <li data-value="standard">Standard</li>
-                <li data-value="points">Points @1x (pt)</li>
-                <li data-value="retina">Retina @2x (pt)</li>
-                <li data-value="standard">Retina HD @3x (pt)</li>
-                <li data-value="standard">Standard</li>
-                <li data-value="standard">Standard</li>
-                <li data-value="standard">Standard</li>
-                <li data-value="standard">Standard</li>
-
+            <ul id="dropdown" class="dropdown active">
+                <li data-value="standard">
+                    ::marker
+                    Standard
+                </li>
+                <li data-value="points">
+                    ::marker
+                    Points @1x (pt)
+                </li>
+                <li data-value="retina">
+                    ::marker
+                    Retina @2x (pt)
+                </li>
+                <li data-value="retinahd">
+                    ::marker
+                    Retina HD @3x (pt)
+                </li>
+                <li data-value="ldpi">
+                    ::marker
+                    LDPI @0.75x (dp)
+                </li>
+                <li data-value="mdpi">
+                    ::marker
+                    MDPI @1x (dp)
+                </li>
+                <li data-value="hdpi">
+                    ::marker
+                    HDPI @1.5x (dp)
+                </li>
+                <li data-value="xhdpi">
+                    ::marker
+                    XHDPI @2x (dp)
+                </li>
+                <li data-value="xxhdpi">
+                    ::marker
+                    XHDPI @3x (dp)
+                </li>
+                <li data-value="xxxhdpi">
+                    ::marker
+                    XHDPI @4x (dp)
+                </li>
             </ul>
+            <div id="hd-slice" class="hd-slice" style="dispaly: none;">
+                <input type="checkbox" name="slice" value="1">
+                <label>
+                    <i></i>
+                </label>
+                Show slices
+            </div>
         </div>
         <div class="page-wrap">
             <div class="aside">
