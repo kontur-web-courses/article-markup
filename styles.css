@@ -10,18 +10,43 @@ h1 {
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
     line-height: 44px;
-    width: 700px;
-    height: 88px;
+    /*width: 700px;*/
+    /*height: 88px;*/
     margin: 55px 363px 11px 360px;
 }
 
+p {
+    margin-left: 362px;
+    margin-right: 361px;
+    font-family: Georgia;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+}
+
 h2 {
+    margin: 55px 363px 11px 360px;
+    font-family: LucidaGrande-Bold;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+}
+
+img {
     margin-left: 362px;
     margin-right: 361px;
 }
 
-p1 {
-    margin-left: ;
+.first_example{
+    margin-top: 43px;
+    margin-bottom: 38px;
+}
+
+.second_example{
+    margin-top: 44px;
+    margin-bottom: 37px;
 }
 
 
