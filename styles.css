@@ -1,8 +1,87 @@
-/* Тут пиши основные стили */
+h1, h2, img, p {
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 38px;
+    margin-top: 10px
+}
+
+ul.hr li {
+    display: inline; 
+    margin-right: 5px; 
+    padding: 3px;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+img {
+    width: 700px;
+    display: block;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+
+nav {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 20px;
+    border: 1px solid;
+    border-left: #979797;
+    margin-top: 20px;
+    background-color: #faf9f8;
+    width: 100%;
+}
+.red {
+    color: red;
+}
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    h1, h2, img, p {
+        margin-left: 0;
+        width: 520px;
+    }
+    
+    .logo{
+        margin-left: 20px;
+    }
+
+    nav li, ul.hr li {
+        display: block;
+        
+    }
+    
+    nav li {
+        padding: 5px;
+        margin-left: 0;
+        min-width: 520px;
+    }
 }
