@@ -1,12 +1,32 @@
 /* Тут пиши основные стили */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+h1 {
+    font-family: LucidaGrande-Bold;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    width: 700px;
+    height: 88px;
+    margin: 55px 363px 11px 360px;
+}
+
+h2 {
+    margin-left: 362px;
+    margin-right: 361px;
+}
+
+p1 {
+    margin-left: ;
 }
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
