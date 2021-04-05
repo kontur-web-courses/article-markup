@@ -4,6 +4,10 @@ h1, h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     font-size: 42px;
     color: rgba(0, 0, 0, 0.84);
@@ -30,7 +34,7 @@ h2 {
     line-height: 39px;
 }
 
-img {
+body img {
     margin-left: 362px;
     margin-right: 361px;
 }
@@ -45,13 +49,42 @@ img {
     margin-bottom: 37px;
 }
 
-code {
+code{
     font-family: "Courier New", monospace;
     background: rgba(205, 214, 219, 0.3);
 }
 
-header {
+header img {
+    margin-left: 38px;
+    margin-top: 10px;
+    margin-right: 1289px;
+}
 
+nav {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+.select{
+    color: red;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 
