@@ -1,5 +1,69 @@
-/* Тут пиши основные стили */
 
+.content {
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+h1 {
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-size:42px;
+    line-height:44px;
+}
+h2 {
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-size:34px;
+    line-height:39px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    line-height:33px;
+}
+img {
+    margin-top: 43px;
+    margin-bottom: 37px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+
+nav {
+    list-style: none;
+    background-color: #faf9f8;
+    margin: 15px;
+    border-top: #979797 solid 1px;
+    border-bottom: #979797 solid 1px;
+}
+
+li {
+    font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    display: inline;
+    margin: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.84);
+}
+
+.logo{
+    margin: 10px 0 10px 38px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
