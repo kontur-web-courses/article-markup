@@ -2,12 +2,10 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .header1, .header2{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", Arial, sans-serif;
-    width: 700;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 .header1 {
     font-size:42px;
@@ -51,7 +49,6 @@ body {
     line-height:25px;
 }
 .menu {
-    padding: 0px;
     background-color: rgb(248, 248, 248);
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -73,7 +70,24 @@ body {
     text-decoration: underline;
 }
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .listItem {
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .header1{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", Arial, sans-serif;
+        font-size: 26px;
+    }
+
+    .header2{
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", Arial, sans-serif;
+        font-size: 22px;
+    }
+
+    .text {
+        font-family: "Georgia";
+        font-size: 18px;
+    }
 }
