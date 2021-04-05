@@ -6,10 +6,10 @@ h1, h2 {
 }
 
 h2 {
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
 }
 
 img {
@@ -20,21 +20,21 @@ img {
 }
 
 h1 {
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
 }
 
 p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
     margin-right: auto;
     margin-left: auto;
     width: 700px;
-    line-height:33px;
+    line-height: 33px;
 }
 
 code {
@@ -42,8 +42,40 @@ code {
     background-color: #f2f2f2;
 }
 
+.logo {
+    width: 97px;
+    margin-left: 38px;
+    margin-top: 10px
+}
+
+nav {
+    border: 0.5px solid;
+    border-left: #979797;
+    border-right: #979797;
+    margin-top: 31px;
+    background-color: #faf9f8;
+}
+
+nav li {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+}
+
+nav li :hover {
+    text-decoration: underline;
+}
+
+.blog {
+    color: #d0021b;
+}
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
