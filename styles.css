@@ -1,5 +1,96 @@
 /* Тут пиши основные стили */
 
+.headers1 {
+    margin: 55px 364px 10px 360px;
+    font-family:LucidaGrande-Bold;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    line-height:44px;
+}
+
+.headers2 {
+    font-family:LucidaGrande-Bold;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    margin: 55px 364px 0 359px;
+}
+
+.headers3 {
+    font-family:LucidaGrande-Bold;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    margin: 56px 364px 0 359px;
+}
+
+.par1 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 362px 0 362px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    box-sizing: content-box;
+    width: 700px;
+}
+
+.par2 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 362px 0 361px;
+    width: 700px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+.par3 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 361px 0 362px;
+    width: 700px;
+}
+
+.img1 {
+    margin: 10px 361px 0 362px;
+}
+
+.par4 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 361px 0 362px;
+    width: 700px;
+}
+
+.img2 {
+    margin: 10px 361px 0 362px;
+
+}
+
+.par5 {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 361px 0 362px;
+    width: 700px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
