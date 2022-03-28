@@ -61,12 +61,26 @@ img {
     margin: 40px 0 40px 0;
 }
 
+header {
+    margin: auto auto auto 100px;
+    width: 100%;
+}
+
+header img {
+    width: 97px;
+    height: 64px;
+    margin: 38px 10px auto auto;
+}
+
 .navigation {
     list-style-type: none;
+    width: 100%;
+    padding: 20px;
     background-color: rgb(250, 249, 248);
 }
 
 .navigation li {
+    padding: 20px 10px 20px 10px;
     padding-inline-end: 4px;
     display: inline;
     width: auto;
@@ -76,6 +90,8 @@ img {
 .navigation li a {
     color: #333;
     text-decoration-line: none;
+    font-size: 24px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
 .navigation li a:active {
