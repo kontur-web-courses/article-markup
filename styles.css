@@ -13,14 +13,7 @@ code {
 
 img {
     width: 700px;
-}
-
-img .img1 {
     height: 727px;
-}
-
-img .img1 {
-    height: 923px;
 }
 
 
@@ -28,4 +21,32 @@ img .img1 {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+}
+ul {
+    padding-left: 38px;
+    list-style: none;
+    background-color: white;
+    height: 50px;
+    padding-top: 13px;
+    border-bottom: solid 1px #1E2535;
+    border-top: solid 1px #1E2535;
+
+}
+
+li {
+    display: inline;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin-right: 30px;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+li>a{
+	text-decoration: none;
+	color: black;
+}
+
+li :hover {
+    text-decoration: underline;
 }
