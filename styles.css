@@ -16,8 +16,9 @@ src: url("fonts/LucidaGrande.ttf") format("truetype");
 
 
 body {
-    margin-left: 361px;
-    margin-right: 362px;
+
+    margin-left: 362px;
+    margin-right: 361px;
 }
 
 
@@ -27,6 +28,11 @@ h2, h1 {
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
     line-height: 44px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 55px;
 }
 
 p {
@@ -43,6 +49,8 @@ code {
 
 img {
     width: 700px;
+    margin-top: 43px;
+    margin-bottom: 30px;
 }
 
 img .img1 {
