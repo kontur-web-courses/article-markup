@@ -24,16 +24,12 @@
     color: #d0021b;
 }
 
-@media (max-width: 800px) {
-    .header{
-        background-color: #faf9f8;
-        height:200px;
-        border: 1px black solid;
-        padding-top: 20px;
-        border-left: 0px;
-        border-right: 0px;
+@media screen and (max-width: 800px) {
+    .header {
+        height:250px;
     }
-    .header li{
+     .header li{
         display: block;
-    }
+        padding: 5px 0px;
+    } 
 }
