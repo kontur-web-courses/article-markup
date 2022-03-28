@@ -57,7 +57,7 @@ img .img1 {
     height: 727px;
 }
 
-img .img1 {
+img .img2 {
     height: 923px;
 }
 
@@ -94,7 +94,10 @@ li>a{
 
 li :hover {
     text-decoration: underline;
+    cursor: 
 }
+
+
 
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
