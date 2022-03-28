@@ -6,3 +6,70 @@
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    margin-left: 360px;
+    margin-right: 364px;
+    font-size:42px;
+    width: 700px;
+    height: 88px;
+    line-height:44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    margin-left: 360px;
+    margin-right: 364px;
+    font-size:34px;
+    width: 700px;
+    height: 39px;
+    line-height:39px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    line-height: 33px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    margin-left: 360px;
+    margin-right: 362px;
+}
+
+img {
+    margin-left: 360px;
+}
+
+#text1 {
+    width: 700px;
+    height: 326px;
+}
+
+#text2 {
+    width: 700px;
+    height: 231px;
+}
+
+#text3 {
+    width: 700px;
+    height: 132px;
+}
+
+#text4 {
+    width: 700px;
+    height: 267px;
+}
+
+#text5 {
+    width: 700px;
+    height: 165px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+}
