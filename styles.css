@@ -39,8 +39,39 @@ code {
     font-size:21px;
 }
 
+.hat{
+    background-color: #faf9f8;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+li:hover{
+    text-decoration: underline;
+
+}
+
+li{
+    text-decoration: none;
+    margin-left: 50px;
+    list-style: none;
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .hat {
+        height: 228px;
+    }
+    ul {
+        display: block;
+    }
 }
