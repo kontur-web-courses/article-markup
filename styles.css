@@ -1,4 +1,20 @@
 /* Тут пиши основные стили */
+@font-face {
+font-family: "Lucida Grande";
+src: url("fonts/LucidaGrande.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url("fonts/lucidasansunicode.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
 body {
     margin-left: 361px;
     margin-right: 362px;
@@ -6,7 +22,7 @@ body {
 
 
 h2, h1 {
-    font-family: LucidaGrande-Bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 42px;
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
@@ -14,7 +30,7 @@ h2, h1 {
 }
 
 p {
-    font-family:Georgia;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size:21px;
     color:rgba(0,0,0,0.84);
     text-align:left;
