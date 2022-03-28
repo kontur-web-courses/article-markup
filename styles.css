@@ -50,6 +50,10 @@ code {
     padding: 3px;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
 
 .logo {
     margin-top: 10px;
@@ -80,11 +84,15 @@ code {
     line-height: 36px;
 }
 
+.menu_radio {
+    display: none;
+}
+
 .menu_link:hover {
     text-decoration: underline;
 }
 
-.menu_link__active {
+.menu_radio:checked + .menu_link {
     color: #d0021b;
 }
 
@@ -99,8 +107,8 @@ code {
     }
 
     .menu_link {
-        font-size: 20px;
-        line-height: 25px;
+        font-size:20px;
+        line-height:25px;
     }
 
     .container {

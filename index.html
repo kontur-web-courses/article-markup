@@ -10,11 +10,21 @@
     <div class="logo"><img src="logo.png" alt="logo"></div>
     <nav class="menu">
         <ul class="menu_list">
-            <li><a href="#" class="menu_link">Обо мне</a></li>
-            <li><a href="#" class="menu_link">Проекты</a></li>
-            <li><a href="#" class="menu_link">Портфолио</a></li>
-            <li><a href="#" class="menu_link menu_link__active">Блог</a></li>
-            <li><a href="#" class="menu_link">Контакты</a></li>
+            <li>
+                <input class="menu_radio" name="menu" id="about" type="radio">
+                <label for="about" class="menu_link">Обо мне</label>
+            </li>
+            <li><input class="menu_radio" name="menu" id="projects" type="radio">
+                <label for="projects" class="menu_link">Проекты</label>
+            </li>
+            <li><input class="menu_radio" name="menu" id="portfolio" type="radio">
+                <label for="portfolio" class="menu_link">Портфолио</label>
+            </li>
+            <li><input class="menu_radio" name="menu" id="blog" type="radio" checked>
+                <label for="blog" class="menu_link">Блог</label></li>
+            <li><input class="menu_radio" name="menu" id="contacts" type="radio">
+                <label for="contacts" class="menu_link">Контакты</label>
+            </li>
         </ul>
     </nav>
 </section>
