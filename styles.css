@@ -41,7 +41,7 @@ p {
     margin-right: 362px;
 }
 
-img {
+#png2, #png3 {
     margin-left: 360px;
 }
 
@@ -74,6 +74,17 @@ code {
     font-family: "Courier New", monospace;
 }
 
-.module {
-    cursor: url('responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png'), auto;
+ul {
+    background-color: #eeeeee;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align:left;
+    line-height:36px;
+    margin-left: 38px;
+}
+
+a
+{
+    text-decoration-line: grammar-error;
 }
