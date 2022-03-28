@@ -1,11 +1,49 @@
 /* Тут пиши основные стили */
+.content-box{
+    width: 700px;
+    margin: 50px auto;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+}
+
+.content-box > header, section{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    line-height:33px;
+    margin-top: 55px;
+}
+header > h1{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    line-height:44px;
+    margin-bottom: 10px;
+}
+header > p{
+    margin-top: 5px;
+}
+section > h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 39px;
+    margin-bottom: 5px;
+}
+section > p{
+    margin-top: 5px;
+}
+code{
+    font-family: "Courier New", monospace;
+    background-color: rgb(241,241,241);
+}
+
+
+
 .header{
     background-color: #faf9f8;
     height:60px;
     border: 1px black solid;
     padding-top: 20px;
-    border-left: 0px;
-    border-right: 0px;
+    border-left: 0;
+    border-right: 0;
 }
 .header li{
     margin: auto;
