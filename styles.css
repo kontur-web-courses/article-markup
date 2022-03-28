@@ -1,5 +1,32 @@
 /* Тут пиши основные стили */
+.navigation {
+    list-style-type: none;
+    background-color: rgb(250, 249, 248);
+}
 
+.navigation li {
+    padding-inline-end: 4px;
+    display: inline;
+    width: auto;
+}
+
+
+.navigation li a {
+    color: #333;
+    text-decoration-line: none;
+}
+
+.navigation li a:active {
+    color: #d0021b;
+}
+
+.navigation li a:hover {
+    text-decoration-line: underline;
+}
+/* 
+.navigation li a:active {
+    text-decoration-line: underline;
+} */
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
