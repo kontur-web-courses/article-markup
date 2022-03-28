@@ -16,7 +16,6 @@ src: url("fonts/LucidaGrande.ttf") format("truetype");
 
 
 body {
-
     margin-left: 362px;
     margin-right: 361px;
 }
@@ -49,8 +48,6 @@ code {
 
 img {
     width: 700px;
-<<<<<<< HEAD
-=======
     margin-top: 43px;
     margin-bottom: 30px;
 }
@@ -65,7 +62,6 @@ img .img2 {
 
 
 @media (max-width: 800px) {
-<<<<<<< HEAD
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
