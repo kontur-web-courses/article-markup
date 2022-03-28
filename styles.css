@@ -1,4 +1,15 @@
 /* Тут пиши основные стили */
+img {
+    width: 700px;
+}
+
+img .img1 {
+    height: 727px;
+}
+
+img .img1 {
+    height: 923px;
+}
 
 
 @media (max-width: 800px) {
