@@ -1,5 +1,25 @@
-/* Тут пиши основные стили */
+* {
+    width: 700px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+}
 
+.header {
+    padding-left: 48px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.paragraph {
+    padding-left: 50px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.modules {
+    font-weight: 10;
+    background-color: lightgrey;
+    font-family: "Courier New", monospace;
+
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
