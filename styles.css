@@ -1,25 +1,50 @@
-* {
+
+
+.header {
     width: 700px;
     color: rgba(0,0,0,0.84);
     text-align: left;
-}
-
-.header {
     padding-left: 48px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
+.images{
+    padding-left: 50px;
+}
+
 .paragraph {
+    width: 700px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
     padding-left: 50px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .modules {
     font-weight: 10;
-    background-color: lightgrey;
+    background-color: #F2F3F7;
     font-family: "Courier New", monospace;
 
 }
+
+
+.menu_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu_button{
+    padding: 5px;
+}
+
+.menu {
+    font-size: 20px;
+    border-color: black;
+    border-top-width: 50px;
+    background-color: lightyellow;
+}
+
+
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
