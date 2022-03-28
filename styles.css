@@ -1,8 +1,64 @@
 /* Тут пиши основные стили */
 
+.logo {
+    width: 101px;
+    margin: 10px auto 0 20px;
+}
+
+.blog_article {
+
+    width: 700px;
+    margin: 55px auto;
+}
+
+.blog_article h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+.blog_article h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+.blog_article p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+nav ul li {
+    display: inline;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:20px;
+    color:#333333;
+    text-align:left;
+    line-height:25px;
+    margin-left: 30px;
+}
+nav ul li:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
