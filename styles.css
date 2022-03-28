@@ -1,10 +1,46 @@
 /* Тут пиши основные стили */
-h2 , h1{
+@font-face {
+font-family: "Lucida Grande";
+src: url("fonts/LucidaGrande.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Lucida Sans Unicode";
+    src: url("fonts/lucidasansunicode.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+body {
+
+    margin-left: 362px;
+    margin-right: 361px;
+}
+
+
+h2, h1 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 55px;
 }
 
 p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
 }
 
 code {
@@ -13,11 +49,23 @@ code {
 
 img {
     width: 700px;
+<<<<<<< HEAD
+=======
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+img .img1 {
     height: 727px;
+}
+
+img .img2 {
+    height: 923px;
 }
 
 
 @media (max-width: 800px) {
+<<<<<<< HEAD
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
@@ -50,3 +98,7 @@ li>a{
 li :hover {
     text-decoration: underline;
 }
+
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     
