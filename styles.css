@@ -1,8 +1,24 @@
 /* Тут пиши основные стили */
-
-
+    h1 {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif}
+    h2 {font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif}
+    p {font-family: Georgia, Cambria, "Times New Roman", Times, serif}
+code {font-family: "Courier New", monospace;}
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    font-size: 21px;
+    color: rgba(0,0,0,84);
+    line-height: 33px;
+}
+img{
+    width: 100%;
+}
+nav
+{
 }
