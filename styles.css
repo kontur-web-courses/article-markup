@@ -1,8 +1,39 @@
 /* Тут пиши основные стили */
-
+.header{
+    background-color: #faf9f8;
+    height:60px;
+    border: 1px black solid;
+    padding-top: 20px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.header li{
+    margin: auto;
+    display: inline;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    padding: 15px;
+}
+.header li:hover{
+    text-decoration: underline;
+}
+.header .on_page{
+    color: #d0021b;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .header{
+        background-color: #faf9f8;
+        height:200px;
+        border: 1px black solid;
+        padding-top: 20px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .header li{
+        display: block;
+    }
 }
