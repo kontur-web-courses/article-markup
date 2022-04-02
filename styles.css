@@ -1,12 +1,5 @@
 /* Тут пиши основные стили */
 
-
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
-}
-
 h1 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     color:rgba(0,0,0,0.84);
@@ -79,12 +72,19 @@ ul {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 24px;
     color: black;
-    text-align:left;
-    line-height:36px;
-    margin-left: 38px;
+    text-align: left;
+    line-height: 70px;
+    position: relative;
+    left: -14px;
 }
-
 a
 {
     text-decoration-line: grammar-error;
+}
+
+@media (max-width: 500px) {
+    #text1 {
+        color: red;
+        font-size: 100px;
+    }
 }
