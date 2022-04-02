@@ -1,8 +1,114 @@
-/* Тут пиши основные стили */
+h1,
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
 
+h1 {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px
+}
 
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+h2 {
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px
+}
+
+.logo {
+    padding: 10px 0 10px 38px;
+    width: 97px;
+    height: 64px
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+    color: #474747
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px
+}
+
+nav {
+    border-top: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+    background-color: #faf9f8;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 23px
+}
+
+ul {
+    padding: 0
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    font-family: LucidaGrande, sans-serif;
+    height: 36px;
+    margin: 0 15px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23.3px;
+    color: #333;
+    text-align: left;
+    line-height: 36px
+}
+
+li:hover {
+    cursor: url("./responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), auto;
+    text-decoration: underline
+}
+
+.blog {
+    color: #d0021b
+}
+
+.content {
+    width: 700px;
+    padding: 55px 362px 95px
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 28px
+    }
+    nav {
+        padding-left: 5px
+    }
+    .content {
+        max-width: 90%;
+        padding: 20px
+    }
+    .logo {
+        padding-left: 20px
+    }
+    li {
+        font-size: 20px;
+        color: #333;
+        text-align: left;
+        line-height: 25px;
+        display: list-item;
+        text-decoration: none
+    }
+    p,
+    img {
+        max-width: 100%
+    }
 }
