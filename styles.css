@@ -1,16 +1,12 @@
 /* Тут пиши основные стили */
 
-
-
-
-
 body{
     margin: 0;
 }
 
 nav {
     background: #f2eae1;
-    height: 70px;
+    height: 100px;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
 }
@@ -33,7 +29,6 @@ ul{
 li{
     float: left;
     margin-left: 30px;
-    margin-top: 17px;
 }
 
 li:hover {
@@ -93,6 +88,10 @@ div{
 
     ul {
         text-align: left;
+    }
+    div{
+        padding: 0;
+        margin: 20px;
     }
 
 }
