@@ -1,5 +1,15 @@
 /* Тут пиши основные стили */
+.headerFont {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
 
+.mainFont {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.codeFont {
+    font-family: "Courier New", monospace;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
