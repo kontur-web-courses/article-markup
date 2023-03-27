@@ -17,6 +17,7 @@ a {
     text-align: left;
     line-height: 25px;
     color: #333333;
+    text-decoration: none;
 }
 
 code {
@@ -26,10 +27,6 @@ code {
 ul {
     list-style: none;
     background-color: #faf9f8;
-}
-
-a {
-    text-decoration: none;
 }
 
 .blog{
