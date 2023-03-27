@@ -1,3 +1,33 @@
+p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.84);
+  text-align: left;
+  line-height: 33px;
+}
+
+main {
+  margin: auto;
+  width: 700px;
+}
+
+h1,
+h2 {
+  text-align: left;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 39px;
+}
 body {
   margin: 0;
   padding: 0;
@@ -36,12 +66,16 @@ body {
   color: #d0021b;
 }
 
+code {
+  font-family: "Courier New", monospace;
+  background-color: #e1e8ef;
+}
 .menu-list__link:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 800px) {
   /* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
