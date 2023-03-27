@@ -1,8 +1,47 @@
 /* Тут пиши основные стили */
 
+.logo {
+    width: 97px;
+}
+
+#navbar {
+    display: flex;
+    margin: 0;
+    padding-left: 2vw;
+    list-style-type: none;
+    height: 8vh;
+    border-top: 1px black groove;
+    border-bottom: 1px black groove;
+    background: #faf9f8;
+}
+
+#navbar li {
+    display: inline;
+    font-family: LucidaGrande;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    padding-right: 1vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#navbar li :hover {
+    text-decoration: underline;
+}
+
+#navbar li.selected a {
+    color: #d0021b;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    #navbar li {
+        display: none;
+    }
+    #navbar {
+        display: none;
+    }
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
