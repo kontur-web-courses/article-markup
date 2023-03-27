@@ -10,14 +10,14 @@
     margin-top: 55px;
 }
 
-.global .headerFont h1 {
+.global .headerFont {
     font-size:42px;
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:44px;
 }
 
-.global .headerFont h2 {
+.global .headerFont {
     font-size:34px;
     color:rgba(0,0,0,0.84);
     text-align:left;
