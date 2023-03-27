@@ -25,8 +25,35 @@ p {
     color: rgba(0,0,0,0.84);
 }
 
+img.centeredImage {
+    display: block;
+    margin: 55px auto 0;
+}
+
+ul.menu {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: floralwhite;
+}
+
+li.menu {
+    display: inline-block;
+    list-style: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    padding: 30px;
+}
+
+li.menu a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
 }
