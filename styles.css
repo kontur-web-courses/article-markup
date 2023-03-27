@@ -1,5 +1,52 @@
 /* Тут пиши основные стили */
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
 
+h1 .main-header {
+    font-family: LucidaGrande-Bold, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+.main-text {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.code-text {
+    font-family: "Courier New", monospace;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: block;
+    background-color: #faf9f8;
+    border-top: 1px solid #c8c8c7;
+    border-bottom: 1px solid #c8c8c7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu a {
+    font-family: LucidaGrande, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin: 30px 30px 30px 30px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    display: inline;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
