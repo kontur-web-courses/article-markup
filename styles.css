@@ -33,15 +33,29 @@
 #navbar li.selected a {
     color: #d0021b;
 }
+.blocks > div {
+    width: 35vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blocks .title{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.blocks .paragraph{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+code{
+    background: #f0f3f8;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+
 
 @media (max-width: 800px) {
-    #navbar li {
-        display: none;
-    }
-    #navbar {
-        display: none;
-    }
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+/* Тут пиши стили для мобилки.
+    Стили применятся только когда страничка будет ≤800px шириной
+ */
 }
