@@ -1,4 +1,23 @@
 /* Тут пиши основные стили */
+.logo {
+    padding-left: 38px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    border-bottom: 1px solid #979797;
+    border-top: 1px solid #979797;
+    background-color: #faf9f8;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
 .header {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 42px;
@@ -40,7 +59,7 @@ div {
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+/* Тут пиши стили для мобилки.
+    Стили применятся только когда страничка будет ≤800px шириной
+ */
 }
