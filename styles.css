@@ -39,6 +39,36 @@ img {
     font-family: "Courier New", monospace;
 }
 
+nav {
+    background-color: #faf9f8;
+    border-top: 1px solid #1D2331;
+    border-bottom: 1px solid #1D2331;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    margin-left: 36px;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 38px;
+    width: 97px;
+}
+
+
+
 @media (max-width: 800px) {
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
