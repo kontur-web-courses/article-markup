@@ -8,13 +8,32 @@ p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
 }
 
-code{
+a {
+    font-family: LucidaGrande, serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+    color: #333333;
+}
+
+code {
     font-family: "Courier New", monospace;
 }
 
+ul {
+    list-style: none;
+    background-color: #faf9f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog{
+    color: red;
+}
+
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+
 }
 
