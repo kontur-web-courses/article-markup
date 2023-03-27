@@ -1,4 +1,6 @@
 h1 {
+    margin: 36px auto 6px auto;
+    width: 700px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 42px;
     color: rgba(0, 0, 0, 0.84);
@@ -7,6 +9,8 @@ h1 {
 }
 
 h2 {
+    margin: 36px auto 6px auto;
+    width: 700px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size: 34px;
     color: rgba(0, 0, 0, 0.84);
@@ -15,11 +19,32 @@ h2 {
 }
 
 p {
+    width: 700px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
     color: rgba(0, 0, 0, 0.84);
     text-align: left;
     line-height: 33px;
+    margin: 6px auto 36px auto;
+}
+
+img {
+    display: block;
+    margin: 43px auto 36px auto;
+    width: 700px;
+    height: 100%;
+}
+
+#header {
+    background-color: aqua;
+}
+
+#header li{
+    list-style: none;
+    display: inline;
+}
+#header li:focus{
+    text-decoration: underline;
 }
 
 .code {
@@ -29,26 +54,26 @@ p {
 @media (max-width: 800px) {
     h1 {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        font-size:26px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:28px;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 28px;
     }
 
     h2 {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        font-size:22px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:39px;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 39px;
     }
 
     p {
         font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-        font-size:18px;
-        color:rgba(0,0,0,0.84);
-        text-align:left;
-        line-height:22px;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 22px;
     }
 
     .code {
