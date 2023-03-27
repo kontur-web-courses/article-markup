@@ -1,8 +1,111 @@
 /* Тут пиши основные стили */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
+}
 
+.header1 {
+    font-family: LucidaGrande-Bold, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    width: 700px;
+    height: 88px;
+    position: relative; top: 55px; left: 360px;
+    border: 10px;
+}
+.header2{
+    font-family:LucidaGrande-Bold, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    width: 700px;
+    height: 39px;
+    position: relative; top: 534px; left: 360px;
+}
+
+.header3{
+    font-family:LucidaGrande-Bold, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    width: 700px;
+    height: 39px;
+    position: relative; top: 870px; left: 360px;
+}
+
+.main-text {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.text1 {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    width: 700px;
+    height: 326px;
+    position: relative; top: 153px; left: 362px;
+}
+
+
+.text2{
+    font-family: Georgia, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    width: 700px;
+    height: 231px;
+    position: relative; top: 583px; left: 362px;
+}
+
+.text3{
+    font-family: Georgia, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    width: 700px;
+    height: 132px;
+    position: relative; top: 919px; left: 362px;
+}
+
+.text4{
+    font-family: Georgia, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    position: relative; top: 1858px; left: 362px;
+}
+
+.text5{
+    font-family: Georgia, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    position: relative; top: 3128px; left: 362px;
+}
+
+.img1
+{
+    position: relative; top: 1094px; left: 362px;
+}
+.img2{
+    position: relative; top: 2168px; left: 362px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
