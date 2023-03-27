@@ -6,3 +6,32 @@
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
+ul.hr {
+    margin-left: 38px;
+    margin: 0px;
+    background-color:#f1f1f1;
+}
+
+ul.hr li {
+    display: inline; 
+    height: 36px;
+    padding: 30px; /* Поля вокруг текста */
+    font-size: 24px;
+    font-family:LucidaGrande;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+ul.hr li:focus {
+    color:red;
+}
+
+ul.hr li:hover{
+    text-decoration: underline;
+}
+/*
+<div class="block block1">block1</div>
+            <div class="block block2">block2</div>
+*/
