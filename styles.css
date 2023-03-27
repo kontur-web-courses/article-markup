@@ -1,15 +1,22 @@
 /* Тут пиши основные стили */
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 22px;
 }
 
 p {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 18px;
+    width: 520px;
+    height: 235px;
 }
 
 code{
     font-family: "Courier New", monospace;
+}
+
+.main{
+    font-size: 26px;
 }
 
 @media (max-width: 800px) {
