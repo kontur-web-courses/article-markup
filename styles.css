@@ -1,8 +1,47 @@
-/* Тут пиши основные стили */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Arial, sans-serif;
+}
 
+.logo {
+  width: 97px;
+  height: 64px;
+  margin: 10px auto 10px 38px;
+}
+
+.menu {
+  background: #faf9f8;
+  border-top: #979797 solid 2px;
+  border-bottom: #979797 solid 2px;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  padding: 20px 38px;
+  margin: 0;
+  gap: 30px;
+}
+
+.menu-list__link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.menu-list__link_current {
+  color: #d0021b;
+}
+
+.menu-list__link:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
+  /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
