@@ -7,7 +7,7 @@
  */
 }
 
-.smth {
+h1 {
     font-family: LucidaGrande-Bold, serif;
     font-size:42px;
     color:rgba(0,0,0,0.84);
@@ -15,15 +15,7 @@
     line-height:44px;
 }
 
-.smth1 {
-    font-family: Georgia, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
-}
-
-.smth2 {
+h2 {
     font-family: LucidaGrande-Bold, serif;
     font-size:34px;
     color:rgba(0,0,0,0.84);
@@ -31,7 +23,7 @@
     line-height:39px;
 }
 
-.smth3 {
+.text {
     font-family: Georgia, serif;
     font-size:21px;
     color:rgba(0,0,0,0.84);
@@ -39,44 +31,7 @@
     line-height:33px;
 }
 
-.smth4 {
-    font-family: LucidaGrande-Bold, serif;
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
-}
-
-.smth5 {
-    font-family: Georgia, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
-}
-
-.image1 {
-    height: 727px;
-    width: 700px;
-}
-
-.smth6 {
-    font-family: Georgia, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
-}
-
-.image2 {
-    height: 923px;
-    width: 700px;
-}
-
-.smth7 {
-    font-family: Georgia, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+.codes {
+    font-family: "Courier New", monospace;
+    background: whitesmoke;
 }
