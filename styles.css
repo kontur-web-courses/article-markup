@@ -45,6 +45,7 @@ body {
   background: #faf9f8;
   border-top: #979797 solid 2px;
   border-bottom: #979797 solid 2px;
+  width: 100%;
 }
 
 .menu-list {
@@ -75,7 +76,16 @@ code {
 }
 
 @media (max-width: 800px) {
-  /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+  .menu-list {
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  main {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
