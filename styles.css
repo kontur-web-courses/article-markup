@@ -1,21 +1,44 @@
 /* Тут пиши основные стили */
-h1 {
+h2, h3, h4, h5, h6 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif
 }
 
-h1 .main-header {
+h1 {
     font-family: LucidaGrande-Bold, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    position: relative; top: 55px; left: 360px;
+    border: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .main-text {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
 }
 
-.code-text {
+.text {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    width: 700px;
+    position: relative; top: 50px; left: 362px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+.img
+{
+    position: relative; top: 30px; left: 362px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.code {
     font-family: "Courier New", monospace;
 }
 
@@ -33,10 +56,10 @@ h1 .main-header {
 
 .menu a {
     font-family: LucidaGrande, sans-serif;
-    font-size:24px;
-    color:#333333;
-    text-align:left;
-    line-height:36px;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
     margin: 30px 30px 30px 30px;
 }
 
@@ -49,7 +72,7 @@ h1 .main-header {
 }
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
