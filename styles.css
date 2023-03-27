@@ -11,8 +11,29 @@ p {
     height: 235px;
 }
 
-code{
+a {
+    font-family: LucidaGrande, serif;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+    color: #333333;
+}
+
+code {
     font-family: "Courier New", monospace;
+}
+
+ul {
+    list-style: none;
+    background-color: #faf9f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog{
+    color: red;
 }
 
 .main{
