@@ -1,8 +1,63 @@
 /* Тут пиши основные стили */
 
 
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+@media (min-width: 800px) {
+    .Article {
+        padding: 0 20px 0;
+    }
+
+    .Header {
+        font-family: LucidaGrande-Bold;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 28px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .Text {
+        font-family: Georgia;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 22px;
+    }
+
+    .Code {
+        font-family: "Courier New", monospace;
+        background: #f2f2f2;
+        padding: 5px;
+        border-radius: 1px;
+    }
+}
+
+
+.Article {
+    padding: 0 362px 95px;
+}
+
+.Header {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
+
+.Text {
+    font-family: Georgia;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+}
+
+.Code {
+    font-family: "Courier New", monospace;
+    background: #f2f2f2;
+    padding: 5px;
+    border-radius: 1px;
 }
