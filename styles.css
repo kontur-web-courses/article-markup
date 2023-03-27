@@ -25,6 +25,7 @@ p {
 
 code {
     font-family: "Courier New", monospace;
+    background-color: #f8f8f8;
 }
 
 @media (max-width: 800px) {
