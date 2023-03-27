@@ -10,8 +10,17 @@ h1, h2 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
 p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
 }
 
 code {
