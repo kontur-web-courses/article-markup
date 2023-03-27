@@ -5,13 +5,14 @@
     padding-bottom: 10px;
 }
 
-.menu {
+nav {
     border-bottom: 1px solid #979797;
     border-top: 1px solid #979797;
     background-color: #faf9f8;
+
 }
 
-.menu ul li {
+nav ul li {
     display: inline-block;
     margin-right: 30px;
     list-style: none;
