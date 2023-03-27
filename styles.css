@@ -8,6 +8,15 @@
     margin-bottom: 0;
 }
 
+h2.header {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 33px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 0;
+}
+
 div {
     padding: 55px 362px 95px 362px;
 }
