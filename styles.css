@@ -1,16 +1,20 @@
 .navmenu{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     list-style: none;
     padding-bottom: 1%;
     border-bottom: black 1px solid;
 }
 .navbar .menu{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
     margin: 5px 5px;
 }
-.logo{
+.logo {
     border-bottom: black 1px solid;
     width: 100%;
+}
 .global {
     margin-left: auto;
     margin-right: auto;
@@ -20,20 +24,10 @@
 .global .headerFont {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     margin-top: 55px;
-}
-
-.global .headerFont {
     font-size:42px;
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:44px;
-}
-
-.global .headerFont {
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
 }
 
 .global .mainFont {
@@ -52,7 +46,11 @@
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .navmenu{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-bottom: 1%;
+        border-bottom: black 1px solid;
+    }
 }
