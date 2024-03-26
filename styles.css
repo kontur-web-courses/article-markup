@@ -67,10 +67,11 @@ img {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
-    .block {
-        width: auto auto;
-    }
-    .header_line .h {
-        display: block;
-    }
+.block {
+    width: 520px;
+}
+
+.header_line .h {
+    color: red;
+}
 }
