@@ -52,9 +52,25 @@ ul {
 }
 
 ul li {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     display: inline;
     margin-right: 5px;
     padding: 3px;
+    font-size: 21px;
+    color: rgba(0,0,0,0.84);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li .current {
+    color: #d0021b;
 }
 
 @media (max-width: 800px) {
