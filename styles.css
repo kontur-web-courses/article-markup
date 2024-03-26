@@ -1,8 +1,112 @@
-/* Тут пиши основные стили */
+.navigation {
+    background-color: #faf9f8;
+    margin: 0;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+    padding: 0;
+}
+
+
+.navigation li {
+    text-align: left;
+    display: inline;
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    font-family: LucidaGrande, serif;
+    color: #333333;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 30px;
+}
+
+.navigation li:hover {
+    text-decoration: underline;
+}
+
+
+.navigation ul {
+    padding: 0;
+    margin-left: 8px;
+    list-style: none;
+}
+
+
+.section-content {
+    margin: 0 auto;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    width: 700px;
+}
+
+.section-content-image {
+    max-width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 44px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: gray;
+}
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .navigation li {
+        line-height: 25px;
+        font-size: 20px;
+        margin: 10px 20px;
+        display: list-item;
+    }
+
+    code {
+        font-size: 20;
+    }
+
+    .navigation ul {
+        margin: 0 auto 10px 0;
+    }
+
+    .section-content {
+        width: 520px;
+    }
+
+    .section-header-image {
+        width: 100px;
+        margin: 10px auto 10px 20px;
+    }
+
+    .section-content p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .section-content h1 {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .section-content h2 {
+        margin: 25px 5px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+
+    img {
+        margin-top: 25px 25px;
+        width: 100%;
+    }
 }
