@@ -1,8 +1,126 @@
 /* Тут пиши основные стили */
-
-
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+body {
+    padding-bottom: 100px;
 }
+
+nav {
+    padding-bottom: 50px;
+}
+
+nav img {
+    width: 97px;
+    padding-inline-start: 38px;
+    margin: 10px auto 10px 38px;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: #faf9f8;
+    border-bottom: 1px gray solid;
+    border-top: 1px gray solid;
+}
+header ul {
+    list-style: none;
+}
+
+header li{
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"),
+    auto;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin-left: 30px;
+    display: inline;
+}
+
+header li:hover{
+    text-decoration:underline;
+}
+
+.red {
+    color: red;
+}
+
+.paragraph img {
+    width: 700px;
+}
+
+h1 {
+    font-family: Arial, serif;
+    font-size: 42px;
+    line-height:44px;
+}
+
+h2 {
+    font-family: Arial, monospace;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+code {
+    background-color: #f0f0f0; /* серый цвет фона */
+    padding: 3px; /* отступы вокруг кода */
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+}
+
+.paragraph {
+    margin: 0 0 0 362px;
+    text-align: left;
+    font-family: Georgia, monospace;
+    line-height:33px;
+    font-size: 21px;
+    width: 700px;
+}
+
+@media screen and (max-width: 800px) {
+    nav img {
+        margin: 10px auto 10px 20px;
+        padding-inline-start: 20px;
+        width: 101px;
+        height: 64px;
+    }
+
+    header li {
+        line-height:25px;
+        font-size:20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: list-item;
+    }
+
+    header ul {
+        padding-inline-start: 20px;
+    }
+
+    .paragraph {
+        margin: 0 0 0 20px;
+        padding-inline-start: 20px;
+        text-align: left;
+        font-family: Georgia, monospace;
+        line-height:22px;
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .paragraph img {
+        width: 95%;
+    }
+
+    h1 {
+        font-family: Arial, serif;
+        font-size: 26px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-family: Arial, monospace;
+        font-size: 22px;
+        line-height: 39px;
+    }
+}
+
+
