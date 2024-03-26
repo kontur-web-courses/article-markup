@@ -3,8 +3,9 @@
 * {
     margin: 10px auto;
 }
+
 h1 {
-    font-family:LucidaGrande-Bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:42px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -12,7 +13,7 @@ h1 {
 }
 
 h2 {
-    font-family:LucidaGrande-Bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:34px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -20,7 +21,7 @@ h2 {
 }
 
 .paragraph {
-    font-family:Georgia;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size:21px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -31,9 +32,14 @@ h2 {
     width: 700px;
 }
 
+span {
+    font-family: "Courier New", monospace;
+}
+
 img {
     margin: 43px auto 37px;
 }
+
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
