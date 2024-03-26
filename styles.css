@@ -38,26 +38,64 @@ img{
     margin-left: 360px;
     width: 700px;
 }
+.image{
+    width: 97px;
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
 
 code{
     font-family: "Courier New", monospace;
     background-color: #F2F2F2;
 }
+nav{
+    margin-left: 0;
+}
+header{
+    margin-left: 0;
+}
+ nav ul {
+     list-style-type: none; /* Убираем маркеры списка */
+     padding: 0; /* Убираем отступы */
+     margin: 0; /* Убираем отступы */
+     width: 100%;
+     background-color: #FAF9F8;
+     height: 100px;
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+ }
+
+ nav ul li {
+     display: inline-block; /* Размещаем элементы горизонтально */
+     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+     font-size:24px;
+     color:#333333;
+     text-align:left;
+     line-height:36px;
+     /*margin-top: 36px;*/
+     /*display: flex;*/
+     /*ma*/
+     margin: 30px 0px 38px 36px;
+
+ }
+ nav ul li:hover{
+     text-decoration: underline;
+     cursor: url("/responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), pointer;
+ }
+
+ nav ul li:visited{
+     color: red;
+ }
+
+ nav ul li a {
+     text-decoration: none; /* Убираем подчеркивание у ссылок */
+     padding: 10px; /* Добавляем отступы между элементами */
+     color: black; /* Цвет текста */
+ }
 
 
-/*header{*/
-/*    font-family:LucidaGrande-Bold;*/
-/*    font-size:42px;*/
-/*    color:rgba(0,0,0,0.84);*/
-/*    text-align:left;*/
-/*    line-height:44px;*/
-/*    margin-top: 50px;*/
-/*    margin-left: 360px;*/
-/*    margin-right: 364px;*/
-/*    width: 700px;*/
-/*    height: 88px;*/
-/*    font-size: 42px;*/
-/*}*/
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
