@@ -22,6 +22,15 @@
     margin: 0 auto;
 }
 
+.code {
+    border-left: 3px solid red;
+    background-color: #ffffe0;
+    padding-left: 10px;
+    margin: 5px 0;
+    box-shadow: 5px 5px 15px -5px #000000;
+}
+
+
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
