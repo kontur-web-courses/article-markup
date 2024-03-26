@@ -1,4 +1,8 @@
 /* Тут пиши основные стили */
+
+* {
+    margin: 10px auto;
+}
 h1 {
     font-family:LucidaGrande-Bold;
     font-size:42px;
@@ -22,8 +26,8 @@ h2 {
     text-align:left;
     line-height:33px;
 }
-.blocks{
-    margin: 10px auto;
+.block {
+    margin: 55px auto;
     width: 700px;
 }
 
