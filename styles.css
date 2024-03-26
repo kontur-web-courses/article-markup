@@ -11,6 +11,19 @@
     font-size:21px;
     margin: 5px 5px;
 }
+.navbar .blogs{
+    color: red;
+}
+.cursor{
+    position: absolute;
+    top: 16%;
+    left:10%;
+    height: 30px;
+    width: 30px;
+}
+.navbar .projects{
+    text-decoration: underline;
+}
 .logo {
     border-bottom: black 1px solid;
     width: 100%;
@@ -43,6 +56,9 @@
     font-family: "Courier New", monospace;
     background-color: #f2f2f2;
 }
+.global .image{
+    width: 80%;
+}
 
 
 @media (max-width: 800px) {
@@ -64,5 +80,33 @@
     div{
         padding: 0;
         margin: 20px;
+    }
+    p{
+        width: 90%;
+
+    }
+    .global{
+        width: 100%;
+    }
+    .global .headerFont {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        margin-top: 55px;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+
+    .global .mainFont {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        margin-top: 10px;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
+    .global .image{
+        width: 80%;
+
     }
 }
