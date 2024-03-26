@@ -83,4 +83,57 @@ a:hover {
 
 @media (max-width: 800px) {
 
+    div {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    nav {
+        font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:25px;
+    }
+
+    ul {
+        list-style: none;
+        padding-inline-start: 20px;
+    }
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+
+    h1 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+    
+    h2 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:22px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+    }
+
+    p {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
+
+    img { 
+        width: 90%;
+    }
+    
 }
