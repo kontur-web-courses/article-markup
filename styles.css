@@ -1,8 +1,100 @@
 /* Тут пиши основные стили */
 
+body {
+    margin: 0;
+}
+
+nav {
+    background: #f2eae1;
+    height: 100px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.header_img {
+    margin: 10px 38px 10px;
+}
+
+ul {
+    display: inline;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    list-style-type: none;
+    margin-right: 760px;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+}
+
+li:hover {
+    text-decoration-line: underline;
+    cursor: url('responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png'), auto;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "LucidaGrande-Bold", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+code {
+    background-color: #f2f2f2;
+    color: #414141;
+}
+
+div {
+    padding: 55px 362px 95px 362px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
+    nav {
+        background: #f2eae1;
+        border-top: 2px solid grey;
+        border-bottom: 2px solid grey;
+        height: 220px;
+    }
+
+    li {
+        float: none;
+        margin-left: 30px;
+    }
+
+    ul {
+        text-align: left;
+    }
+
+    div {
+        padding: 0;
+        margin: 20px;
+    }
 }
