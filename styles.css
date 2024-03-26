@@ -1,17 +1,25 @@
 .articleTitle {
-    font-family:LucidaGrande-Bold;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-family: LucidaGrande-Bold;
+    font-size: 42px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 10px;
 }
 
 .content {
-    font-family:Georgia;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-family: Georgia;
+    font-size: 21px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.feed {
+    width: 700px;
+    margin: 0 auto;
 }
 
 @media (max-width: 800px) {
