@@ -74,7 +74,29 @@ code {
     background-color: #faf9f8;
 }
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    li{ 
+        display: block;
+        margin: 10px 20px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    h1{
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    h2{
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    img{
+        margin: 25px auto;
+    }
 }
