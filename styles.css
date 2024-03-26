@@ -1,8 +1,112 @@
-/* Тут пиши основные стили */
+.navmenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-bottom: 1%;
+    border-bottom: black 1px solid;
+}
+.navbar .menu{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    margin: 5px 5px;
+}
+.navbar .blogs{
+    color: red;
+}
+.cursor{
+    position: absolute;
+    top: 16%;
+    left:10%;
+    height: 30px;
+    width: 30px;
+}
+.navbar .projects{
+    text-decoration: underline;
+}
+.logo {
+    border-bottom: black 1px solid;
+    width: 100%;
+}
+.global {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.global .headerFont {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-top: 55px;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+.global .mainFont {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin-top: 10px;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.codeFont {
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+.global .image{
+    width: 80%;
+}
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .navmenu{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-bottom: 1%;
+        border-bottom: black 1px solid;
+    }
+    li{
+        float: none;
+        margin-left: 30px;
+    }
+
+    ul {
+        text-align: left;
+    }
+    div{
+        padding: 0;
+        margin: 20px;
+    }
+    p{
+        width: 90%;
+
+    }
+    .global{
+        width: 100%;
+    }
+    .global .headerFont {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        margin-top: 55px;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+
+    .global .mainFont {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        margin-top: 10px;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
+    .global .image{
+        width: 80%;
+
+    }
 }
