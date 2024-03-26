@@ -5,7 +5,7 @@ body {
 }
 
 div {
-    padding: 55px 362px 95px 362px;
+    padding: 54px 359px 100px 364px;
 }
 
 h1 {
@@ -50,7 +50,7 @@ h2 {
     }
 
     nav {
-        background: #dcd0c2;
+        background: #f1d4c3;
         border-top: 2px solid grey;
         border-bottom: 2px solid grey;
         height: 220px;
