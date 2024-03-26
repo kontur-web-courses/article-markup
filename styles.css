@@ -1,8 +1,32 @@
-/* Тут пиши основные стили */
 
 
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+nav.navigationBar {
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    background-color:#f1f1f1;
+}
+
+nav.navigationBar li {
+    display: inline;
+    height: 36px;
+    padding: 30px;
+    font-size: 24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+nav.navigationBar li:focus {
+    color:red;
+}
+
+nav.navigationBar li:hover{
+    text-decoration: underline;
+}
+
+.adaptive-margin-left {
+    margin-left: 3%;
 }
