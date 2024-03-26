@@ -1,5 +1,75 @@
 /* Тут пиши основные стили */
+h1 {
+    width: 700px;
+    height: 88px;
+    font-size: 42px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin: 55px 364px 10px 360px;
+    position: relative;
+    z-index: 0;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
 
+}
+
+p {
+    width: 700px;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    position: relative;
+    left: 362px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin: 55px 364px 10px 360px;
+    position: relative;
+    z-index: 0;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+
+}
+
+code {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    margin: 43px 362px 37px 362px;
+}
+
+img.top {
+    margin-left: 38px;
+}
+
+li {
+    font-family: LucidaGrande, sans-serif;
+    list-style: none;
+    font-size:24px;
+    color:#333333;
+    display: inline-flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:left;
+    line-height:36px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: whitesmoke;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    cursor: url("responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png"), auto;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
