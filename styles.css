@@ -73,6 +73,13 @@ li a:hover {
     line-height:33px;
 }
 
+#cringe2{
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 50px;
+    z-index: 2;
+}
+
 
 @media (max-width: 800px) {
     /* Тут пиши стили для мобилки.
