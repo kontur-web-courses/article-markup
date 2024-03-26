@@ -1,3 +1,82 @@
+@media  (min-width: 800px){
+    .all{
+        margin-left: 20px;
+        width: 520px;
+    }
+    
+    .h1{
+        font-family:LucidaGrande-Bold;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+    }
+    
+    p{
+        font-family:Georgia;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+        margin-bottom: 25px;
+    }
+    
+    .zmic_head {
+        font-size:26px;
+        line-height:28px;
+        height: 56px;
+    }
+    
+    .grey_t{
+        font-family: "Courier New", monospace;
+        font-size:19px;
+        color:#333333;
+        text-align:left;
+        line-height:24px;
+        background-color:#f1f1f1;
+        border-radius: 1px;
+    }
+    
+    
+    .zmic2{
+        font-size:22px;
+        line-height:39px;
+        height: 39px;
+        margin-bottom: 10px;
+    }
+    
+    
+    nav.navigationBar {
+        font-family:LucidaGrande;
+        font-size:24px;
+        color:#333333;
+        text-align:left;
+        line-height:36px;
+        background-color:#f1f1f1;
+    }
+    
+    nav.navigationBar li {
+        display: inline;
+        height: 36px;
+        padding: 30px;
+        font-size: 24px;
+        color:#333333;
+        text-align:left;
+        line-height:36px;
+    }
+    
+    nav.navigationBar li:focus {
+        color:red;
+    }
+    
+    nav.navigationBar li:hover{
+        text-decoration: underline;
+    }
+    
+    .adaptive-margin-left {
+        margin-left: 3%;
+    }
+    
+}
+
 .all{
     margin-left: 360px;
     width: 700px;
