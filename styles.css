@@ -1,5 +1,63 @@
-/* Тут пиши основные стили */
+ /*Тут пиши основные стили */
+ .digf{
+     box-sizing: border-box;
+     width: 700px;
+     height: 88px;
+     font-size:42px;
+     color:rgba(0,0,0,0.84);
+     text-align:left;
+     line-height:44px;
+     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+     margin-top: 50px;
+     margin-left: 360px;
+    font-weight: 700;
+ }
 
+p{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    width: 700px;
+    margin-left: 362px;
+}
+
+
+.hdva {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    font-weight: 700;
+    margin-left: 360px;
+    margin-top: 55px;
+}
+img{
+    margin-left: 360px;
+    width: 700px;
+}
+
+code{
+    font-family: "Courier New", monospace;
+    background-color: #F2F2F2;
+}
+
+
+/*header{*/
+/*    font-family:LucidaGrande-Bold;*/
+/*    font-size:42px;*/
+/*    color:rgba(0,0,0,0.84);*/
+/*    text-align:left;*/
+/*    line-height:44px;*/
+/*    margin-top: 50px;*/
+/*    margin-left: 360px;*/
+/*    margin-right: 364px;*/
+/*    width: 700px;*/
+/*    height: 88px;*/
+/*    font-size: 42px;*/
+/*}*/
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
