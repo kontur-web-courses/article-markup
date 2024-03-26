@@ -1,8 +1,167 @@
-/* Тут пиши основные стили */
+ /*Тут пиши основные стили */
+ .digf{
+     box-sizing: border-box;
+     width: 700px;
+     height: 88px;
+     font-size:42px;
+     color:rgba(0,0,0,0.84);
+     text-align:left;
+     line-height:44px;
+     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+     margin-top: 50px;
+     margin-left: 360px;
+    font-weight: 700;
+ }
+
+p{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    width: 700px;
+    margin-left: 362px;
+}
+
+
+.hdva {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    font-weight: 700;
+    margin-left: 360px;
+    margin-top: 55px;
+}
+img{
+    margin-left: 360px;
+    width: 700px;
+}
+.image{
+    width: 97px;
+    height: 64px;
+    margin-top: 10px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+code{
+    font-family: "Courier New", monospace;
+    background-color: #F2F2F2;
+}
+nav{
+    margin-left: 0;
+}
+header{
+    margin-left: 0;
+}
+ nav ul {
+     list-style-type: none; /* Убираем маркеры списка */
+     padding: 0; /* Убираем отступы */
+     margin: 0; /* Убираем отступы */
+     width: 100%;
+     background-color: #FAF9F8;
+     height: 100px;
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+ }
+
+ nav ul li {
+     display: inline-block; /* Размещаем элементы горизонтально */
+     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+     font-size:24px;
+     color:#333333;
+     text-align:left;
+     line-height:36px;
+     /*margin-top: 36px;*/
+     /*display: flex;*/
+     /*ma*/
+     margin: 30px 0px 38px 36px;
+
+ }
+ nav ul li:hover{
+     text-decoration: underline;
+     cursor: url("/responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), pointer;
+ }
+
+ nav ul li:visited{
+     color: red;
+ }
+
+ nav ul li a {
+     text-decoration: none; /* Убираем подчеркивание у ссылок */
+     padding: 10px; /* Добавляем отступы между элементами */
+     color: black; /* Цвет текста */
+ }
+
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .digf{
+        font-size:28px;
+        color:rgba(0,0,0,0.84);
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        /*font-weight: 700;*/
+        max-width: 95%;
+        margin: 25px 20px 0 20px;
+    }
+
+    p{
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        max-width: 95%;
+        margin: 0 20px 0 20px;
+    }
+
+
+    .hdva {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        max-width: 95%;
+        margin: 20px 20px;
+    }
+    img {
+        margin: 10px 0 10px 20px;
+        width: 269px;
+        height: 350px;
+    }
+    .image{
+        width: 101px;
+        height: 64px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    code{
+        font-family: "Courier New", monospace;
+        background-color: #F2F2F2;
+    }
+    header nav ul {
+        list-style: none; /* Убираем маркеры списка */
+        background-color: #FAF9F8;
+        height: 210px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+
+    header nav ul li {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 18px;
+        color: #333333;
+        display: block;
+        margin: 5px 0 0 0;
+    }
+    nav ul li:hover{
+        text-decoration: underline;
+        cursor: url("/responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), pointer;
+    }
+
+    nav ul li:visited{
+        color: red;
+    }
+
 }
