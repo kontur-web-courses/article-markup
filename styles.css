@@ -1,5 +1,27 @@
 /* Тут пиши основные стили */
+h1 {
+    font-family:LucidaGrande-Bold;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
 
+h2 {
+    font-family:LucidaGrande-Bold;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+.paragraph {
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
