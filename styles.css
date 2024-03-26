@@ -15,7 +15,7 @@
     padding: 0px;
 }
 
-.nav_list li{
+li{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:24px;
     color:#333333;
@@ -26,10 +26,14 @@
     margin: 15px 30px;
 }
 
-.nav_list .current{
+.current{
     color: #d0021b;
 }
-.nav_list li:hover{
+
+.current:hover{
+    text-decoration: underline;
+}
+li:hover{
     text-decoration: underline;
 }
 
