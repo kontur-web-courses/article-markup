@@ -25,6 +25,11 @@
 
 .nav-elem:hover {
     text-decoration: underline;
+    cursor: url("/responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), pointer;
+}
+
+.nav-elem:visited{
+    color: #d0021b;
 }
 
 .article-headers {
@@ -49,7 +54,59 @@
 }
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+    .logo {
+        width: 101px;
+        height: 64px;
+        margin-left: 20px;
+    }
+
+    .nav-menu {
+        height: 200px;
+        background-color: #FAF9F8;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .nav-elem {
+        height: 25px;
+        width: 133px;
+        list-style: none;
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 20px;
+        margin-left: -20px;
+    }
+
+    .nav-elems {
+        flex-direction: column;
+    }
+
+    .nav-elem:hover {
+        text-decoration: underline;
+        cursor: url("/responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), pointer;
+    }
+
+    .nav-elem:visited{
+        color: #d0021b;
+    }
+
+    .article-headers {
+        max-width: 95%;
+        margin: 20px 20px;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 26px;
+    }
+
+    .article-content {
+        max-width: 95%;
+        margin: 0 20px 0 20px;
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 18px;
+    }
+
+    .article-code {
+        width: 560px;
+        font-family: "Courier New", monospace;
+        font-size: 18px;
+        background-color: lightgrey;
+    }
 }
