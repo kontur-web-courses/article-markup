@@ -1,5 +1,8 @@
 /* Тут пиши основные стили */
-
+.blocks{
+    margin: 10px auto;
+    width: 700px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
