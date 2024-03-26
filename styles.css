@@ -13,6 +13,8 @@
 
 .nav_list{
     padding: 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 li{
@@ -75,8 +77,11 @@ code {
     background-color: #faf9f8;
 }
 @media (max-width: 800px) {
+    .nav_list{
+        flex-direction: column;
+    }
+    
     li{ 
-        display: block;
         margin: 10px 20px;
         font-size: 20px;
         line-height: 25px;
