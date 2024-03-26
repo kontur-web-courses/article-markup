@@ -1,5 +1,5 @@
 .articleTitle {
-    font-family:LucidaGrande-Bold;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:42px;
     color:rgba(0,0,0,0.84);
     text-align:left;
@@ -7,7 +7,7 @@
 }
 
 .content {
-    font-family:Georgia;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size:21px;
     color:rgba(0,0,0,0.84);
     text-align:left;
