@@ -1,8 +1,39 @@
 /* Тут пиши основные стили */
 
+h1 {
+    font-family: Arial, serif;
+    font-size: 42px;
+    line-height:44px;
+}
+
+h2 {
+    font-family: Arial, monospace;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+code {
+    background-color: #f0f0f0; /* серый цвет фона */
+    padding: 3px; /* отступы вокруг кода */
+    border-radius: 5px;
+    font-family: Arial, monospace; /* моноширинный шрифт для кода */
+    color: black;
+}
+
+.paragraph {
+    margin: 0 0 0 362px;
+    text-align: left;
+    font-family: Georgia, monospace;
+    line-height:33px;
+    font-size: 21px;
+    width: 700px;
+}
+
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
+
