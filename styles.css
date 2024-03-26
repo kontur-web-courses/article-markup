@@ -147,11 +147,11 @@ ul li {
 
     ul li {
         display: block;
-        margin-right: 30px;
+        margin-bottom: 10px;
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         color: #333333;
         text-align: left;
-        line-height: 36px;
+        line-height: 25px;
     }
 }
