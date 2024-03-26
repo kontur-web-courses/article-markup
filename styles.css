@@ -1,9 +1,41 @@
 /* Тут пиши основные стили */
 
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 div {
-    position: absolute;
     width: 50%;
-    left: 25%;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 25px;
+    background-color: rgb(245, 245, 245);
+    border-top: 1px #333333 solid;
+    border-bottom: 1px #333333 solid;
+}
+
+nav {
+    font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:26px;
+    margin-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 20px;
 }
 
 h1 {
@@ -35,8 +67,20 @@ code {
     background-color: lightgray;
 }
 
+a { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.current-page {
+    color: #d0021b;
+}
+  
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+
 }
