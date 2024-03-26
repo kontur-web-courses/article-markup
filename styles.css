@@ -1,4 +1,76 @@
 /* Тут пиши основные стили */
+h1{
+    position: relative;
+    height: 88px;
+    width: 700px;
+    max-width: 700px;
+    top: 55px;
+    left: 360px;
+    font-family:LucidaGrande-Bold;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    padding-bottom: 44px;
+    margin-bottom: 10px;
+}
+
+h2{
+    position: relative;
+    width: 700px;
+    height: 39px;
+    left: 360px;
+    font-family:LucidaGrande-Bold;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+p{
+    width: 700px;
+    height: auto;
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    position: relative;
+    left: 360px;
+    padding-bottom: 0.5em;
+    margin-bottom: 55px;
+    padding-bottom: 0px;
+}
+
+img{
+    position: relative;
+    width: 700px;
+    height: auto;
+    left: 362px;
+}
+
+li {
+    font-family: LucidaGrande, sans-serif;
+    list-style: none;
+    font-size:24px;
+    color:#333333;
+    display: inline-flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:left;
+    line-height:36px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: whitesmoke;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    cursor: url("responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png"), auto;
+}
 
 
 @media (max-width: 800px) {
