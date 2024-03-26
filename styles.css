@@ -1,8 +1,77 @@
-/* Тут пиши основные стили */
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    margin: 55px 0 10px;
+}
 
+h2 {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    margin: 55px 0 10px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin: 10px 0 0;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: #f1f1f1;
+}
+
+.artboard {
+    width: 700px;
+    padding: 0 364px 95px 360px;
+    block-size: fit-content;
+}
+
+img {
+    margin: 43px 0 37px;
+}
+
+nav {
+    background-color: #f9f8f7;
+    border: solid black;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    text-decoration: none;
+}
+
+
+.active {
+    color: #d0021b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
 }
+
