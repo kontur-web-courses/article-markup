@@ -75,11 +75,7 @@ code {
     width: 700px;
 }
 
-
-@media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+@media screen and (max-width: 800px) {
     nav img {
         margin: 10px auto 10px 20px;
         width: 101px;
@@ -95,7 +91,7 @@ code {
         font-size:20px;
         margin-left: 20px;
     }
-    
+
     .paragraph {
         margin: 0 0 0 20px;
         text-align: left;
