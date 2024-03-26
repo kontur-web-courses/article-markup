@@ -73,6 +73,10 @@ ul li .current {
     color: #d0021b;
 }
 
+footer {
+    height: 95px;
+}
+
 @media (max-width: 800px) {
     .articleTitle {
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
