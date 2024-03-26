@@ -1,8 +1,83 @@
 /* Тут пиши основные стили */
+.main {
+    margin: 55px 360px 94px 360px;
+}
 
+menu {
+    padding: 0;
+    margin: 0;
+    background-color: #faf9f8;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+}
+
+.header ul {
+    padding: 0;
+    margin-left: 8px;
+    list-style: none;
+}
+
+.header li {
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    font-family: LucidaGrande, serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    margin-left: 30px;
+    display: inline;
+}
+
+.header li:hover {
+    text-decoration: underline;
+}
+
+.main h1 {
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    font-size: 42px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.main h2 {
+    font-size: 34px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+.main code {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 0 3px;
+    font-family: "Courier New", monospace;
+}
+
+.main p {
+    font-size: 21px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    margin-top: 10px;
+    margin-bottom: 43px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    .main {
+        margin: 55px 36px 94px 36px;
+    }
+
+    img  {
+        scale: 0.75;
+    }
 }
