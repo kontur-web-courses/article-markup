@@ -1,4 +1,40 @@
 /* Тут пиши основные стили */
+.header {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+    z-index: 0;
+    left: 360px;
+    width: 700px;
+    height: 88px;
+    padding-top: 55px;
+    margin-left: 360px;
+    font-weight: bold;
+}
+
+.text-block {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    left: 360px;
+    width: 700px;
+    height: 88px;
+    margin-left: 360px;
+    padding-top: 10px;
+}
+
+.bu {
+    font-family:"Courier New", monospace;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+    position:absolute;top:153px;z-index:1;left:362px;width: 700px;height: 326px;
+}
 
 
 @media (max-width: 800px) {
