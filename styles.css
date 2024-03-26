@@ -91,54 +91,54 @@
 }
 
 @media (max-width: 800px) {
-    .header { 
-        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif; 
-        font-size: 26px; 
-        color: rgba(0, 0, 0, 0.84); 
-        text-align: left; 
-        line-height: 28px; 
-        z-index: 0; 
-        width: 520px; 
-        padding-top: 309px; 
-        margin-left: 20px; 
-        font-weight: bold; 
-    } 
-     
-    .subheader { 
-        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif; 
-        font-size: 22px; 
-        color: rgba(0, 0, 0, 0.84); 
-        text-align: left; 
-        line-height: 39px; 
-        z-index: 0; 
-        width: 520px; 
-        padding-top: 25px; 
-        margin-left: 20px; 
-        font-weight: bold; 
-    } 
-     
-    .text-block { 
-        font-family: Georgia, Cambria, "Times New Roman", Times, serif; 
-        font-size:18px; 
-        color:rgba(0,0,0,0.84); 
-        text-align:left; 
-        line-height:22px; 
-        width: 520px; 
-        margin-left: 20px; 
-        padding-top: 6px; 
-    } 
-     
-    .codeimage { 
-        width: auto; 
-    } 
-     
-    .code { 
-        font-family:"Courier New", monospace; 
-        font-size:18px; 
-        color:rgba(0,0,0,0.84); 
-        text-align:left; 
-        line-height:22px; 
-        background-color: #f2f2f2; 
+    .header {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 28px;
+        z-index: 0;
+        width: 520px;
+        padding-top: 309px;
+        margin-left: 20px;
+        font-weight: bold;
     }
-
+    
+    .subheader {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 39px;
+        z-index: 0;
+        width: 520px;
+        padding-top: 25px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    
+    .text-block {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+        width: 520px;
+        margin-left: 20px;
+        padding-top: 6px;
+    }
+    
+    .codeimage {
+        width: 520px;
+        margin-left: 0px;
+    }
+    
+    .code {
+        font-family:"Courier New", monospace;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+        background-color: #f2f2f2;
+    }
 }
