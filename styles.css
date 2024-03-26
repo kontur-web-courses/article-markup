@@ -1,4 +1,17 @@
-/* Тут пиши основные стили */
+.navmenu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-bottom: 1%;
+    border-bottom: black 1px solid;
+}
+.navbar .menu{
+    margin: 5px 5px;
+}
+.logo{
+    border-bottom: black 1px solid;
+    width: 100%;
+}
 
 
 @media (max-width: 800px) {
