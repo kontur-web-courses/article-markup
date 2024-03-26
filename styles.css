@@ -9,6 +9,7 @@ nav {
 
 nav img {
     width: 97px;
+    padding-inline-start: 38px;
     margin: 10px auto 10px 38px;
 }
 
@@ -78,6 +79,7 @@ code {
 @media screen and (max-width: 800px) {
     nav img {
         margin: 10px auto 10px 20px;
+        padding-inline-start: 20px;
         width: 101px;
         height: 64px;
     }
@@ -91,11 +93,12 @@ code {
     }
 
     header ul {
-        margin: 0 auto 10px 0;
+        padding-inline-start: 20px;
     }
 
     .paragraph {
         margin: 0 0 0 20px;
+        padding-inline-start: 20px;
         text-align: left;
         font-family: Georgia, monospace;
         line-height:22px;
