@@ -36,4 +36,32 @@ p {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    .main-content {
+        margin-left: 359px;
+        margin-right: 362px
+    }
+
+    h1{
+        font-family:LucidaGrande-Bold;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+
+    h2{
+        font-family:LucidaGrande-Bold;
+        font-size:22px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+    }
+
+    p{
+        font-family:Georgia;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
 }
