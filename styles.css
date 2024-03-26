@@ -37,6 +37,25 @@
     padding: 1px;
 }
 
+nav {
+    background-color: #faf9f8;
+    border-style: solid;
+    border-color: black;
+    border-left: 1px;
+    border-right: 1px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 4px; 
+}
+
+ul li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
