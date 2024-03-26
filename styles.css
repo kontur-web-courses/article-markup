@@ -1,101 +1,108 @@
 /* Тут пиши основные стили */
 
-body{
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+body {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 a {
-    font-size: 24px;
-    line-height: 36px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 nav {
-    background: #FAF9F8;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-
+  background: #faf9f8;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Arial, sans-serif;
 }
 
 nav li {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul {
-    display: flex;
-    gap: 30px;
-    flex-direction: row;
-    align-items: start;
-    margin-left: 30px;
-    padding: 0px;
-
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  align-items: start;
+  margin-left: 30px;
+  padding: 0px;
 }
 
-
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .highlight {
-    color: red;
+  color: red;
 }
 
-.logo{
-    width: 97px;
-    margin: 10px auto 10px 30px;
+.logo {
+  width: 97px;
+  margin: 10px auto 10px 30px;
 }
 
 .article {
-    color: rgba(0, 0, 0, 0.84);
-    text-align: left;
-    width: 700px;
-    display: flex;
-    align-items: start;
-    margin: 0 auto 94px;
-    flex-direction: column;
+  color: rgba(0, 0, 0, 0.84);
+  text-align: left;
+  width: 700px;
+  display: flex;
+  align-items: start;
+  margin: 0 auto 94px;
+  flex-direction: column;
 }
 
 .article h1, h2 {
-    margin: 55px auto 10px 0;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  margin: 55px auto 10px 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Arial, sans-serif;
 }
 
 .article h1 {
-    font-size: 42px;
-    line-height: 44px;
+  font-size: 42px;
+  line-height: 44px;
 }
 
 .article h2 {
-    font-size: 34px;
-    line-height: 39px;
+  font-size: 34px;
+  line-height: 39px;
 }
 
 .article .p-block {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 33px;
 }
 
 .article p {
-    font-size: 21px;
-    line-height: 33px;
-    margin: 0;
+  font-size: 21px;
+  line-height: 33px;
+  margin: 0;
 }
 
 .article img {
-    width: 700px;
-    margin: 43px auto 37px;
+
+  width: 100%;
+  margin: 43px auto 37px;
 }
 
 .article code {
-    background-color: #f2f2f2;
-    font-family: "Courier New", monospace;
+  background-color: #f2f2f2;
+  font-family: "Courier New", monospace;
 }
 
-
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
+  /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
+  .article {
+    width: 520px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
