@@ -1,13 +1,58 @@
 /* Тут пиши основные стили */
+
+body{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+a {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+nav {
+    background: #FAF9F8;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: start;
+    margin-left: 30px;
+    padding: 0px;
+
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.highlight {
+    color: red;
+}
+
+.logo{
+    width: 97px;
+    margin: 10px auto 10px 30px;
+}
+
 .article {
-    color:rgba(0,0,0,0.84);
-    text-align:left;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
     width: 700px;
     display: flex;
     align-items: start;
     margin: 0 auto 94px;
     flex-direction: column;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .article h1, h2 {
@@ -48,8 +93,9 @@
     font-family: "Courier New", monospace;
 }
 
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
