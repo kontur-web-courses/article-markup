@@ -33,9 +33,10 @@ code{
     color:#333333;
     text-align:left;
     line-height:36px;
-    border: 1px solid black;
-    padding: 0 0;
-    width: 120%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0;
+    width: 100%;
 }
 
 ul {
@@ -48,17 +49,19 @@ ul {
 
 li {
     float: left;
+    margin: 0;
 }
 
 li a {
     display: block;
     color: black;
     text-align: center;
+    margin: 0;
     padding: 16px;
-    text-decoration: none;
 }
 
 li a:hover {
+    margin: 0;
 }
 
 #block1{
@@ -72,8 +75,15 @@ li a:hover {
 
 
 @media (max-width: 800px) {
-    .block1 {
-        background-color: red;
+    li a {
+        display: initial;
+        color: black;
+        text-align: center;
+        margin: 0;
+        padding: 16px;
+    }
+    .shapka {
+        height: 100px;
     }
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
