@@ -1,0 +1,40 @@
+Index: styles.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* Тут пиши основные стили */\n.main-content {\n    margin-left: 359px;\n    margin-right: 362px\n}\n\n\n\n@media (max-width: 800px) {\n/* Тут пиши стили для мобилки.\n    Стили применятся только когда страничка будет ≤800px шириной\n */\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/styles.css b/styles.css
+--- a/styles.css	(revision c0bb8b41911a07e37c375732aeaad4fad7a2f238)
++++ b/styles.css	(date 1711459649112)
+@@ -4,7 +4,29 @@
+     margin-right: 362px
+ }
+ 
++.about-lexical{
++    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
++    font-size:18px;
++    color:rgba(0,0,0,0.84);
++    text-align:left;
++    line-height:22px;
++}
+ 
++.lexical-continue{
++    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
++    font-size:18px;
++    color:rgba(0,0,0,0.84);
++    text-align:left;
++    line-height:22px;
++}
++
++.lexical-finish{
++    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
++    font-size:21px;
++    color:rgba(0,0,0,0.84);
++    text-align:left;
++    line-height:33px;
++}
+ 
+ @media (max-width: 800px) {
+ /* Тут пиши стили для мобилки.
