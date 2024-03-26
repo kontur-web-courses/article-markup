@@ -55,6 +55,10 @@ article div p {
 }
 
 img {
+    margin: 9px 37px;
+}
+
+article img {
     margin: 43px 0 37px;
 }
 
@@ -63,7 +67,34 @@ code {
     background-color: #F2F2F2;
 }
 
+nav {
+    border: 1px solid #666666;
+    background-color: #F7F7F7;
+    height: 70px;
+    align-content: center;
+    margin: 0;
+}
 
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 23px;
+}
+
+nav ul li {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 24px;
+    color :#333333;
+    text-align: left;
+    line-height: 36px;
+    padding: 15px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
 
 
 @media (max-width: 800px) {
