@@ -1,17 +1,25 @@
 .articleTitle {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 44px;
+    margin-bottom: 10px;
 }
 
 .content {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-size: 21px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.feed {
+    width: 700px;
+    margin: 0 auto;
 }
 
 @media (max-width: 800px) {
