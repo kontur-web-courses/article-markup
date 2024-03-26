@@ -1,8 +1,87 @@
 /* Тут пиши основные стили */
+.allFont {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
 
+.allFont .headerFont1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-top: 55px;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+.allFont .headerFont2 {
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+.allFont .textFont {
+    margin-top: 10px;
+    font-family:Georgia;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.codeFont {
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
+
+ul {
+    padding-left: 38px;
+    list-style: none;
+    background-color: #faf9f8;
+    height: 50px;
+    padding-top: 13px;
+    border-bottom: solid 1px #1E2535;
+    border-top: solid 1px #1E2535;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+li :hover {
+    text-decoration: underline;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    ul {
+        height: 250px;
+    }
+
+    li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    h2, h1 {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-top: 25px;
+    }
+
+    body {
+        width: 300px;
+    }
+
+    img {
+        width: 100px;
+    }
 }
