@@ -8,6 +8,25 @@
 </head>
 
 <body>
+    <aside>
+        <nav>
+            <ul class="list">
+                <li><a href="#" class="headlinks">Mobile</a></li>
+                <li><a href="#" class="headlinks">Decktop HD</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div>
+        <img class="icon"
+            src="responsive-design\E8E9A56B-53B7-494E-BE52-747EE607EC62\0A444DCB-E33A-45DC-B3CE-3D329BD766F6@3x.png">
+    </div>
+    <div class="sections">
+        <span class="section">Обо мне</span>
+        <span class="section">Проекты</span>
+        <span class="section">Портфолио</span>
+        <span class="section">Блог</span>
+        <span class="section">Контакты</span>
+    </div>
     <div class="header">
         Замыкания в JavaScript для начинающих
     </div>
@@ -44,22 +63,30 @@
         Понятие «лексическое окружение» или «статическое окружение» в JavaScript относится к возможности доступа к
         переменным, функциям и объектам на основе их физического расположения в исходном коде. Рассмотрим пример:
     </div>
-    <img class="codeimage" src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\CA501510-E978-4377-9076-8F392B899C1B@0.5x.png" alt ="b" height="727px">
+    <img class="codeimage"
+        src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\CA501510-E978-4377-9076-8F392B899C1B@0.5x.png" alt="b"
+        height="727px">
     <div class="text-block">
         <p>
-            Здесь у функции <code class="code">inner()</code> есть доступ к переменным, объявленным в её собственной области
+            Здесь у функции <code class="code">inner()</code> есть доступ к переменным, объявленным в её собственной
+            области
             видимости, в области
-            видимости функции <code class="code">outer()</code> и в глобальной области видимости. Функция <code class="code">outer()</code> имеет
+            видимости функции <code class="code">outer()</code> и в глобальной области видимости. Функция <code
+                class="code">outer()</code> имеет
             доступ к переменным,
             объявленным в её собственной области видимости и в глобальной области видимости.</p>
         <p>Цепочка областей видимости вышеприведённого кода будет выглядеть так:</p>
     </div>
-    <img class="codeimage" src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\848B0BFD-C857-4F1E-93BF-3822E0A81A7E@0.5x.png" alt="a" height="923px">
+    <img class="codeimage"
+        src="article-design\2744EFD6-B878-4DCB-B0D5-526F1B233733\848B0BFD-C857-4F1E-93BF-3822E0A81A7E@0.5x.png" alt="a"
+        height="923px">
     <div class="text-block">
         Обратите внимание на то, что функция <code class="code">inner()</code> окружена лексическим окружением функции
         <code class="code">outer()</code>, которая, в свою
-        очередь, окружена глобальной областью видимости. Именно поэтому функция <code class="code">inner()</code> может получить
+        очередь, окружена глобальной областью видимости. Именно поэтому функция <code class="code">inner()</code> может
+        получить
         доступ к переменным, объявленным в функции <code class="code">outer()</code> и в глобальной области видимости.
     </div>
 </body>
+
 </html>
