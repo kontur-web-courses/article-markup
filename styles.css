@@ -1,8 +1,137 @@
 /* Тут пиши основные стили */
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.99);
+    text-align: left;
+    line-height: 44px;
+    margin: 55px 364px 10px 360px;
+    width: 700px;
+}
 
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+    margin: 55px 364px 10px 360px;
+    width: 700px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    margin-left: 362px;
+    margin-right: 362px;
+    width: 700px;
+}
+
+.image1, .image2 {
+    display: block;
+    margin: 0 362px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
+    h1 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 28px;
+        color: rgba(0, 0, 0, 0.99);
+        text-align: left;
+        line-height: 44px;
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    h2 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 39px;
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    p {
+        width: 90%;
+        margin: 25px auto;
+        font-family: Georgia;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 22px;
+    }
+
+    .image1, .image2 {
+        display: block;
+        text-align: left;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    ul li {
+        display: block;
+        margin-right: 300px;
+        text-align: left;
+    }
+
+
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    padding: 0 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainImage {
+    padding: 0 0;
+    margin-left: 38px;
+    margin-top: 10px;
+}
+
+nav {
+    padding: 16px 32px;
+    background-color: #faf9f8;
+}
+
+hr.solid {
+    margin: 0;
+}
+
+a {
+    font-family: LucidaGrande;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+
+    padding: 8px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blog {
+    color: #d0021b;
 }
