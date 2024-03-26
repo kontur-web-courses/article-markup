@@ -1,8 +1,135 @@
-/* Тут пиши основные стили */
+.bar img {
+    width: 97px;
+    margin: 10px auto 10px 38px;
+}
 
+menu {
+    padding: 0;
+    margin: 0;
+    background-color: #faf9f8;
+    border-bottom: 1px #000000 solid;
+    border-top: 1px #000000 solid;
+}
+
+menu ul {
+    padding: 0;
+    margin-left: 8px;
+    list-style: none;
+}
+
+menu li {
+    cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@0.5x.png"), auto;
+    font-family: LucidaGrande, serif;
+    font-size: 24px;
+    color: #333333;
+    text-align: left;
+    line-height: 36px;
+    margin-left: 30px;
+    display: inline;
+}
+
+menu li:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.red {
+    color: #d0021b;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    margin-bottom: 11px;
+    margin-top: 55px;
+    font-size: 34px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 39px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
+    display: inline-block;
+    white-space: normal;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 43px;
+    margin-bottom: 38px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+    background-color: #eceef3;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    menu li {
+        line-height: 25px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: list-item;
+    }
+
+    menu ul {
+        margin: 0 auto 10px 0;
+    }
+
+    .bar img {
+        height: 64px;
+        width: 101px;
+        margin: 10px auto 10px 20px;
+    }
+
+    .main-content {
+        width: 520px;
+    }
+
+    .main-content h1 {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .main-content h2 {
+        margin-top: 25px !important;
+        margin-bottom: 6px;
+        font-size: 22px;
+        line-height: 39px;
+    }
+
+    .main-content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    img {
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .code {
+        font-size: 18px;
+    }
 }
