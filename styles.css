@@ -1,8 +1,19 @@
-/* Тут пиши основные стили */
+.article-headers {
+    width: 700px;
+    margin-left: 360px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+}
 
+.article-content {
+    width: 700px;
+    margin-left: 362px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 21px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
