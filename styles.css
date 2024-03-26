@@ -39,6 +39,43 @@ img {
     /* Тут пиши стили для мобилки.
         Стили применятся только когда страничка будет ≤800px шириной
      */
+
+    h1 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 28px;
+        color: rgba(0, 0, 0, 0.99);
+        text-align: left;
+        line-height: 44px;
+        width: 50%;
+        margin: 25px auto;
+    }
+
+    h2 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 39px;
+        width: 50%;
+        margin: 25px auto;
+    }
+
+    p {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.84);
+        line-height: 33px;
+        text-align: left;
+        width: 50%;
+        margin: 25px auto;
+    }
+
+    img {
+        display: block;
+        text-align: left;
+        width: 55%;
+        margin: 50px auto;
+    }
 }
 
 code {
