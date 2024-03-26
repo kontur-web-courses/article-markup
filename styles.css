@@ -1,4 +1,15 @@
 /* Тут пиши основные стили */
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif
+}
+
+.code {
+    font-family: "Courier New", monospace;
+}
 
 
 @media (max-width: 800px) {
