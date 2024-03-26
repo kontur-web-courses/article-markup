@@ -1,3 +1,32 @@
+.logo {
+    width: 97px;
+    height: 64px;
+    margin-left: 38px;
+}
+
+.nav-menu {
+    height: 70px;
+    background-color: #FAF9F8;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-elems {
+    display: flex;
+}
+
+.nav-elem {
+    height: 36px;
+    list-style: none;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin: 5px 20px 0 38px;
+}
+
+.nav-elem:hover {
+    text-decoration: underline;
+}
+
 .article-headers {
     width: 700px;
     margin-left: 360px;
@@ -10,6 +39,13 @@
     margin-left: 362px;
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
+}
+
+.article-code {
+    width: 700px;
+    font-family: "Courier New", monospace;
+    font-size: 21px;
+    background-color: lightgrey;
 }
 
 @media (max-width: 800px) {
