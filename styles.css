@@ -1,8 +1,83 @@
 /* Тут пиши основные стили */
+.main-content {
+    margin-left: 359px;
+    margin-right: 362px
+}
+nav img{
+    width: 97px;
+    margin: 10px auto 10px 38px;
+}
+li{
+    font-family:LucidaGrande;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    margin-left: 30px;
+    display: inline;
+}
+.blog{
+    color: red;
+}
 
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
  */
+    .main-content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h1{
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+
+    h2{
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:22px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+    }
+
+    p{
+        font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
 }
