@@ -84,4 +84,8 @@
         margin: 55px 36px 94px 36px;
     }
 
+    img  {
+        scale: 0.75;
+    }
+
 }
