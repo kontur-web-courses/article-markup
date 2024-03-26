@@ -1,8 +1,17 @@
 /* Тут пиши основные стили */
+body {
+    padding-bottom: 100px;
+}
+
+nav {
+    padding-bottom: 50px;
+}
+
 nav img{
     width: 97px;
     margin: 10px auto 10px 38px;
 }
+
 header{
     padding: 0;
     margin: 0;
@@ -13,6 +22,7 @@ header{
 header ul{
     list-style: none;
 }
+
 header li{
     cursor: url("responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"),
     auto;
@@ -24,11 +34,17 @@ header li{
     margin-left: 30px;
     display: inline;
 }
+
 header li:hover{
     text-decoration:underline;
 }
+
 .red {
     color: red;
+}
+
+.paragraph img {
+    width: 700px;
 }
 
 h1 {
@@ -47,8 +63,7 @@ code {
     background-color: #f0f0f0; /* серый цвет фона */
     padding: 3px; /* отступы вокруг кода */
     border-radius: 5px;
-    font-family: Arial, monospace; /* моноширинный шрифт для кода */
-    color: black;
+    font-family: "Courier New", monospace;
 }
 
 .paragraph {
@@ -62,9 +77,30 @@ code {
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .paragraph {
+        margin: 0 0 0 20px;
+        text-align: left;
+        font-family: Georgia, monospace;
+        line-height:22px;
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .paragraph img {
+        width: 95%;
+    }
+
+    h1 {
+        font-family: Arial, serif;
+        font-size: 26px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-family: Arial, monospace;
+        font-size: 22px;
+        line-height: 39px;
+    }
 }
 
 
