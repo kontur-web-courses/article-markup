@@ -98,7 +98,70 @@ header{
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .digf{
+        font-size:28px;
+        color:rgba(0,0,0,0.84);
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        /*font-weight: 700;*/
+        max-width: 95%;
+        margin: 25px 20px 0 20px;
+    }
+
+    p{
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        max-width: 95%;
+        margin: 0 20px 0 20px;
+    }
+
+
+    .hdva {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        max-width: 95%;
+        margin: 20px 20px;
+    }
+    img {
+        margin: 10px 0 10px 20px;
+        width: 269px;
+        height: 350px;
+    }
+    .image{
+        width: 101px;
+        height: 64px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    code{
+        font-family: "Courier New", monospace;
+        background-color: #F2F2F2;
+    }
+    header nav ul {
+        list-style: none; /* Убираем маркеры списка */
+        background-color: #FAF9F8;
+        height: 210px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+
+    header nav ul li {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 18px;
+        color: #333333;
+        display: block;
+        margin: 5px 0 0 0;
+    }
+    nav ul li:hover{
+        text-decoration: underline;
+        cursor: url("/responsive-design/2744EFD6-B878-4DCB-B0D5-526F1B233733/9E1721B2-E123-44D1-BBA7-88E713A6A184@1x.png"), pointer;
+    }
+
+    nav ul li:visited{
+        color: red;
+    }
+
 }
