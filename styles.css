@@ -2,7 +2,29 @@
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    ul {
+        height: 250px;
+    }
+
+    li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    h2, h1 {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-top: 25px;
+    }
+
+    body {
+        width: 300px;
+    }
+
+    img {
+        width: 100px;
+    }
 }
