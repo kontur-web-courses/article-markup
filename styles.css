@@ -35,6 +35,29 @@
     background-color: #f2f2f2;
 }
 
+ul {
+    padding-left: 38px;
+    list-style: none;
+    background-color: #faf9f8;
+    height: 50px;
+    padding-top: 13px;
+    border-bottom: solid 1px #1E2535;
+    border-top: solid 1px #1E2535;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+}
+
+li :hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 800px) {
     ul {
         height: 250px;
