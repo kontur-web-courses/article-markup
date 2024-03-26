@@ -1,5 +1,47 @@
 /* Тут пиши основные стили */
+h1, h2 {
+    margin: 55px 364px 10px 360px;
+    width: 700px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 42px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 44px;
+}
 
+h2 {
+    font-size:34px;
+    line-height:39px;
+}
+
+p {
+    width: 700px;
+    margin: 0 362px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+.image_lexical_env, .image_area_chain{
+    margin: 43px 362px 37px 362px;
+    width: 700px;
+    height: 727px;
+}
+
+.image_area_chain {
+    height: 923px;
+}
+
+.text_end {
+    margin-bottom: 95px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: #f2f2f2;
+}
 
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
