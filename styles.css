@@ -7,6 +7,15 @@
     margin-bottom: 10px;
 }
 
+.title {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size: 34px;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    line-height: 39px;
+    margin-bottom: 10px;
+}
+
 .content {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 21px;
