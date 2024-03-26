@@ -1,8 +1,141 @@
-/* Тут пиши основные стили */
+@media (min-width: 800px) {
+    .logo {
+        margin-top: 10px;
+        margin-left: 30px;
+    }
 
+    .article-header {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 42px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 44px;
+        max-width: 700px;
+        margin: 55px auto 10px;
+    }
+
+    .subheader {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 34px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 39px;
+        max-width: 700px;
+        margin: 55px auto 10px;
+    }
+
+    .content {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 21px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 33px;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .image {
+        margin: 43px auto 38px;
+        max-width: 700px;
+    }
+
+    .header-menu .header-menu-item:hover {
+        text-decoration: underline;
+    }
+
+    .header-menu .header-menu-item .is-active {
+        color: #D0021B;
+    }
+
+    .header-menu {
+        list-style: none;
+        border-top: 2px solid #979797;
+        border-bottom: 2px solid #979797;
+        background-color: #FAF9F8;
+
+    }
+
+    .header-menu-item {
+        font-family: LucidaGrande, serif;
+        font-size: 24px;
+        color: #333333;
+        text-align: left;
+        line-height: 36px;
+        display: inline-block;
+        margin-right: 30px;
+        margin-left: 0;
+        cursor: url("responsive-design/E8E9A56B-53B7-494E-BE52-747EE607EC62/5301AFFB-CEE8-43FC-8F06-FB9785DF6E4A@1x.png"), auto;
+    }
+
+    .article-image {
+        max-width: 100%;
+    }
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .logo {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .article-image {
+        max-width: 100%;
+    }
+
+    .article-header {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 26px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 44px;
+        margin: 20px auto 10px;
+    }
+
+    .subheader {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 39px;
+        max-width: 700px;
+        margin: 20px auto 10px;
+    }
+
+    .content {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.84);
+        text-align: left;
+        line-height: 33px;
+        margin-top: 20px;
+    }
+
+    .image {
+        margin: 20px auto 20px;
+    }
+
+    .header-menu .header-menu-item:hover {
+        text-decoration: underline;
+    }
+
+    .header-menu .header-menu-item .is-active {
+        color: #D0021B;
+    }
+
+    .header-menu {
+        list-style: none;
+        border-top: 2px solid #979797;
+        border-bottom: 2px solid #979797;
+        background-color: #FAF9F8;
+    }
+
+    .header-menu-item {
+        font-family: LucidaGrande, serif;
+        font-size: 20px;
+        color: #333333;
+        text-align: left;
+        line-height: 25px;
+        margin-right: 30px;
+        margin-left: 0;
+    }
 }
