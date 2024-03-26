@@ -1,8 +1,146 @@
 /* Тут пиши основные стили */
 
+#logo{
+    margin: 10px;
+}
+
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.header {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 25px;
+    background-color: rgb(245, 245, 245);
+    border-top: 1px #333333 solid;
+    border-bottom: 1px #333333 solid;
+}
+
+nav {
+    font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:26px;
+    margin-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+p {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    background-color: lightgray;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.current-page {
+    color: #d0021b;
+}
+  
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+
+    div {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    nav {
+        font-family:Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:20px;
+        color:#333333;
+        text-align:left;
+        line-height:25px;
+    }
+
+    ul {
+        list-style: none;
+        padding-inline-start: 20px;
+    }
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+
+    h1 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:26px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:28px;
+    }
+    
+    h2 {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size:22px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:39px;
+    }
+
+    p {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        font-size:18px;
+        color:rgba(0,0,0,0.84);
+        text-align:left;
+        line-height:22px;
+    }
+
+    img { 
+        width: 90%;
+    }
+
+    #logo{
+        width: fit-content;
+    }
 }
