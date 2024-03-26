@@ -108,5 +108,52 @@ ul li .current {
         background-color: #f2f2f2;
         padding: 1px;
     }
+
+    nav {
+        background-color: #faf9f8;
+        border-style: solid;
+        border-color: #e7e7e7;
+        border-width: 0;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul li {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        font-size: 21px;
+        color: rgba(0,0,0,0.84);
+        border-bottom: 1px dashed #e7e7e7;
+        display: block;
+        border: none;
+    }
+    
+    ul li:last-child {
+        border-bottom: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+        background-color: #f2f2f2;
+    }
+    
+    ul li .current {
+        color: #d0021b;
+        font-weight: bold;
+        pointer-events: none;
+    }
+    
 }
 
