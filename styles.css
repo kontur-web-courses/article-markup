@@ -22,6 +22,11 @@ a:visited {
     color: red;
 }
 
+#logo {
+    position: relative;
+    left: 38px;
+}
+
 nav li {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:24px;
