@@ -89,7 +89,7 @@ h2 {
     font-family: "Courier New", monospace;
 }
 
-img {
+.block img {
     width: 700px;
     margin: 43px auto 37px;
 }
@@ -99,7 +99,7 @@ img {
         display: unset;
     }
 
-    img {
+    .block img {
         width: 520px;
     }
 
