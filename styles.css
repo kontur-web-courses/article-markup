@@ -4,12 +4,25 @@
     margin: 10px auto;
 }
 
-.header_line {
+nav {
     background-color: #faf9f8;
     height: auto;
     padding: 28px;
 }
-.header_line .h {
+
+/*a {
+    text-decoration: none;
+}*/
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+nav li {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-size:24px;
     color:#333333;
@@ -18,13 +31,6 @@
     display: inline;
     margin: auto 15px;
 }
-.header_line #blog{
-    color: red;
-}
-.header_line #projects{
-    text-decoration: underline;
-}
-
 
 h1 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
