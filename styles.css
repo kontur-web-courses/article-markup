@@ -5,6 +5,8 @@
 }
 
 nav {
+    border-top: 1px #b6b6b6 solid;
+    border-bottom: 1px #b6b6b6 solid;
     background-color: #faf9f8;
     height: auto;
     padding: 28px;
