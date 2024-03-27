@@ -4,6 +4,14 @@
     margin: 10px auto;
 }
 
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: unset;
+}
+
 nav {
     border-top: 1px #b6b6b6 solid;
     border-bottom: 1px #b6b6b6 solid;
@@ -16,6 +24,8 @@ nav {
     text-decoration: none;
 }*/
 
+
+
 a:hover {
     text-decoration: underline;
 }
@@ -24,7 +34,7 @@ a:visited {
     color: red;
 }
 
-#logo {
+.logo {
     position: relative;
     left: 38px;
     margin: 0;
@@ -84,6 +94,14 @@ img {
 }
 
 @media (max-width: 800px) {
+    .mobile {
+        display: unset;
+    }
+
+    .desktop {
+        display: none;
+    }
+
     .block {
         width: 520px;
     }
