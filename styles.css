@@ -25,6 +25,10 @@
     text-decoration: underline;
 }
 
+nav ul {
+    list-style-type: none;
+}
+
 
 h1 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
