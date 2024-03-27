@@ -108,7 +108,7 @@ h2 {
     }
 
     .block {
-        margin: 25px 20px;
+        margin: 25px auto;
         width: 520px;
     }
 
