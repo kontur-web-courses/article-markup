@@ -90,12 +90,17 @@ h2 {
 }
 
 img {
+    width: 700px;
     margin: 43px auto 37px;
 }
 
 @media (max-width: 800px) {
     .mobile {
         display: unset;
+    }
+
+    img {
+        width: 520px;
     }
 
     .desktop {
