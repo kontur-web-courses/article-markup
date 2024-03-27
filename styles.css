@@ -1,8 +1,136 @@
 /* Тут пиши основные стили */
 
+* {
+    margin: 10px auto;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: unset;
+}
+
+nav {
+    border-top: 1px #b6b6b6 solid;
+    border-bottom: 1px #b6b6b6 solid;
+    background-color: #faf9f8;
+    height: auto;
+    padding: 28px;
+}
+
+/*a {
+    text-decoration: none;
+}*/
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+.logo {
+    position: relative;
+    left: 38px;
+    margin: 0;
+}
+
+nav li {
+    position: relative;
+    right: 38px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:24px;
+    color:#333333;
+    text-align:left;
+    line-height:36px;
+    display: inline;
+    margin: auto 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+}
+
+h2 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-size:34px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:39px;
+}
+
+.paragraph {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size:21px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:33px;
+}
+.block {
+    margin: 55px auto;
+    width: 700px;
+}
+
+.block span {
+    background: #f2f2f2;
+    font-family: "Courier New", monospace;
+}
+
+.block img {
+    width: 700px;
+    margin: 43px auto 37px;
+}
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .mobile {
+        display: unset;
+    }
+
+    .block img {
+        width: 520px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .block {
+        margin: 25px auto;
+        width: 520px;
+    }
+
+    nav li {
+        display: block;
+        font-size:20px;
+        line-height:25px;
+        margin: 9px auto;
+    }
+
+    h1 {
+        font-size:26px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-family:LucidaGrande-Bold;
+        font-size:22px;
+    }
+
+    .paragraph {
+        font-size:18px;
+        line-height:22px;
+    }
 }
