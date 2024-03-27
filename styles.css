@@ -85,10 +85,28 @@ img {
 
 @media (max-width: 800px) {
     .block {
+        margin: 55px 20px;
         width: 520px;
     }
 
     nav li {
-         display: block;
+        display: block;
+        font-size:20px;
+        line-height:25px;
+    }
+
+    h1 {
+        font-size:26px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-family:LucidaGrande-Bold;
+        font-size:22px;
+    }
+
+    .paragraph {
+        font-size:18px;
+        line-height:22px;
     }
 }
